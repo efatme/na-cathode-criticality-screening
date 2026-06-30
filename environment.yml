@@ -1,0 +1,23 @@
+name: sodium-cathode-screening
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - python=3.11
+  - pandas
+  - numpy
+  - scipy
+  - scikit-learn
+  - matplotlib
+  - tabulate
+  - openpyxl
+  - tqdm
+  - joblib
+  - jupyter
+  - nbconvert
+  - pip
+  - pip:
+      - pymatgen
+      - mp-api
+      - matminer
+      - chemdataextractor

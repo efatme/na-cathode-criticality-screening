@@ -1,0 +1,11 @@
+cff-version: 1.2.0
+title: "Criticality-aware materials informatics for sustainable sodium-ion cathode prioritization: An integrated screening of computed electrode descriptors and text-mined literature evidence"
+message: "If you use this workflow or processed outputs, please cite the archived release DOI."
+type: software
+authors:
+  - name: "Author One"
+  - name: "Author Two"
+repository-code: "TO_BE_ADDED_AFTER_GITHUB_UPLOAD"
+doi: "TO_BE_ADDED_AFTER_ZENODO_CODE_RELEASE"
+date-released: "2026-06-27"
+license: MIT

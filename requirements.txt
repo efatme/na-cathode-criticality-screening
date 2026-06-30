@@ -1,0 +1,15 @@
+pandas==2.2.2
+numpy==1.26.4
+scipy==1.13.1
+scikit-learn==1.5.1
+matplotlib==3.8.4
+tabulate==0.9.0
+openpyxl==3.1.5
+pymatgen
+mp-api
+matminer
+chemdataextractor
+joblib
+tqdm
+jupyter
+nbconvert
