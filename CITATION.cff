@@ -1,5 +1,5 @@
 cff-version: 1.2.0
-title: "Criticality-aware materials informatics for sodium-ion cathode candidate prioritization using computed electrode descriptors and text-mined literature evidence"
+title: "Criticality-aware sodium-ion cathode candidate prioritization using computed electrode descriptors and text-mined literature evidence"
 message: "If you use this workflow or processed outputs, please cite the submitted manuscript and this repository."
 type: software
 authors:

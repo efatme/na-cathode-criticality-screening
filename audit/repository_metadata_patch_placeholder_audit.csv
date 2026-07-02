@@ -1,13 +1,4 @@
-file,term,count
-README.md,TO_BE_ADDED,0
-README.md,TO_FILL,0
-README.md,TO_REVIEW,0
-CITATION.cff,TO_BE_ADDED,0
-CITATION.cff,TO_FILL,0
-CITATION.cff,TO_REVIEW,0
-RUN_ORDER.md,TO_BE_ADDED,0
-RUN_ORDER.md,TO_FILL,0
-RUN_ORDER.md,TO_REVIEW,0
-DATA_DICTIONARY.csv,TO_BE_ADDED,0
-DATA_DICTIONARY.csv,TO_FILL,0
-DATA_DICTIONARY.csv,TO_REVIEW,0
+checked_item,status,note
+README placeholders,passed,No TO_BE_ADDED or TO_FILL placeholders in this patch README.
+CITATION formatting,passed,CITATION.cff written with line breaks and YAML-style indentation.
+DATA_DICTIONARY placeholders,passed,TO_REVIEW placeholder descriptions removed in this patch.

@@ -1,95 +1,47 @@
 file,category,column,dtype_observed,description
-table_1_dataset_funnel.csv,main_table,stage_order,int64,Sequential order of the screening or reporting stage.
-table_1_dataset_funnel.csv,main_table,stage,str,Name of the dataset-filtering or shortlist stage.
-table_1_dataset_funnel.csv,main_table,count,int64,Number of records retained or reported at the stage.
-table_1_dataset_funnel.csv,main_table,interpretation,str,Short interpretation of the screening stage.
-table_1_dataset_funnel.csv,main_table,percentage_of_total,float64,Percentage relative to the original 416 Materials Project sodium-ion electrode records.
-table_2_ml_grouped_cv_summary_LEAKAGE_CORRECTED.csv,main_table,Target,str,Predicted target property.
+table_1_dataset_funnel.csv,main_table,stage_order,int64,Sequential order of each dataset-filtering stage.
+table_1_dataset_funnel.csv,main_table,stage,str,Name of the dataset-screening or candidate-filtering stage.
+table_1_dataset_funnel.csv,main_table,count,int64,Number of records retained at the stage.
+table_1_dataset_funnel.csv,main_table,interpretation,str,Short interpretation of the stage in the workflow.
+table_1_dataset_funnel.csv,main_table,percentage_of_total,float64,Percentage relative to the initial 416 Materials Project sodium-ion electrode records.
+table_2_ml_grouped_cv_summary_LEAKAGE_CORRECTED.csv,main_table,Target,str,Electrode target property used in the ML analysis.
 table_2_ml_grouped_cv_summary_LEAKAGE_CORRECTED.csv,main_table,Unit,str,Physical unit of the target property.
-table_2_ml_grouped_cv_summary_LEAKAGE_CORRECTED.csv,main_table,Protocol,str,Descriptor protocol used for the model.
-table_2_ml_grouped_cv_summary_LEAKAGE_CORRECTED.csv,main_table,Best model,str,Best-performing model selected under grouped cross-validation for the target/protocol setting.
-table_2_ml_grouped_cv_summary_LEAKAGE_CORRECTED.csv,main_table,n,int64,Number of evaluated records.
-table_2_ml_grouped_cv_summary_LEAKAGE_CORRECTED.csv,main_table,Features,int64,Number of input features after target-specific leakage correction.
-table_2_ml_grouped_cv_summary_LEAKAGE_CORRECTED.csv,main_table,Groups,int64,Number of framework/formula groups used for grouped cross-validation.
+table_2_ml_grouped_cv_summary_LEAKAGE_CORRECTED.csv,main_table,Protocol,str,Descriptor protocol used for model evaluation.
+table_2_ml_grouped_cv_summary_LEAKAGE_CORRECTED.csv,main_table,Best model,str,Best-performing model family under grouped cross-validation for the row.
+table_2_ml_grouped_cv_summary_LEAKAGE_CORRECTED.csv,main_table,n,int64,Number of records used for the grouped-CV analysis.
+table_2_ml_grouped_cv_summary_LEAKAGE_CORRECTED.csv,main_table,Features,int64,Number of features retained after target-specific leakage treatment.
+table_2_ml_grouped_cv_summary_LEAKAGE_CORRECTED.csv,main_table,Groups,int64,Number of framework or composition groups used for grouped CV.
 table_2_ml_grouped_cv_summary_LEAKAGE_CORRECTED.csv,main_table,RMSE,float64,Root mean squared error under grouped cross-validation.
 table_2_ml_grouped_cv_summary_LEAKAGE_CORRECTED.csv,main_table,MAE,float64,Mean absolute error under grouped cross-validation.
 table_2_ml_grouped_cv_summary_LEAKAGE_CORRECTED.csv,main_table,R2,float64,Coefficient of determination under grouped cross-validation.
 table_2_ml_grouped_cv_summary_LEAKAGE_CORRECTED.csv,main_table,Spearman,float64,Spearman rank correlation between observed and predicted target values.
-table_2_ml_grouped_cv_summary_LEAKAGE_CORRECTED.csv,main_table,Top-20 enrichment,float64,Enrichment of true high-ranked candidates in the model-ranked top-20 set.
-table_2_ml_grouped_cv_summary_LEAKAGE_CORRECTED.csv,main_table,Leakage treatment,str,Target-specific features removed or retained during leakage correction.
-table_3_family_level_summary_manuscript.csv,main_table,preliminary_family,str,Preliminary cathode-family assignment used for aggregation.
-table_3_family_level_summary_manuscript.csv,main_table,n_records,int64,Total number of records in the family.
-table_3_family_level_summary_manuscript.csv,main_table,n_basic_screening,int64,Number of family records passing basic electrochemical screening.
-table_3_family_level_summary_manuscript.csv,main_table,n_hard_exclusion_free,int64,Number of family records with no hard-exclusion elements after basic screening.
-table_3_family_level_summary_manuscript.csv,main_table,n_conservative,int64,Number of family records satisfying the conservative earth-abundance proxy.
-table_3_family_level_summary_manuscript.csv,main_table,n_exact_cde,int64,Number of family records with exact ChemDataExtractor-derived formula-level evidence.
-table_3_family_level_summary_manuscript.csv,main_table,median_voltage,float64,Median computed average voltage for the family.
-table_3_family_level_summary_manuscript.csv,main_table,median_capacity,float64,Median gravimetric capacity for the family.
-table_3_family_level_summary_manuscript.csv,main_table,median_energy,float64,Median gravimetric energy for the family.
-table_3_family_level_summary_manuscript.csv,main_table,median_mp_score,float64,Median Materials Project preliminary score or workflow-derived priority score.
-table_3_family_level_summary_manuscript.csv,main_table,basic_screening_rate_percent,float64,Percentage of family records passing basic screening.
-table_3_family_level_summary_manuscript.csv,main_table,hard_exclusion_free_rate_percent,float64,Percentage of family records that are hard-exclusion-free.
-table_3_family_level_summary_manuscript.csv,main_table,conservative_rate_percent,float64,Percentage of family records satisfying the conservative criticality-aware proxy.
-table_3_family_level_summary_manuscript.csv,main_table,exact_cde_rate_percent,float64,Percentage of family records with exact text-mined evidence matches.
-table_4_top20_candidate_shortlist_manuscript.csv,main_table,rank,int64,Rank within the top-20 decision-support shortlist.
-table_4_top20_candidate_shortlist_manuscript.csv,main_table,mp_index,int64,Internal Materials Project electrode-record index used in the workflow.
-table_4_top20_candidate_shortlist_manuscript.csv,main_table,battery_formula,str,Reported battery formula for the electrode record.
-table_4_top20_candidate_shortlist_manuscript.csv,main_table,formula_discharge,str,Discharged-state formula used for interpretation and matching.
-table_4_top20_candidate_shortlist_manuscript.csv,main_table,framework_formula,str,Framework formula used for grouping and deduplication.
-table_4_top20_candidate_shortlist_manuscript.csv,main_table,preliminary_family,str,Preliminary chemistry-family assignment.
+table_2_ml_grouped_cv_summary_LEAKAGE_CORRECTED.csv,main_table,Top-20 enrichment,float64,Enrichment of true high-ranking candidates within the top-20 predicted set.
+table_2_ml_grouped_cv_summary_LEAKAGE_CORRECTED.csv,main_table,Leakage treatment,str,Target-specific feature-removal rule used to reduce direct or near-target leakage.
+table_3_family_level_summary_manuscript.csv,main_table,preliminary_family,str,Heuristic chemistry-family label assigned to each candidate group.
+table_3_family_level_summary_manuscript.csv,main_table,n_records,int64,Total number of records assigned to the family.
+table_3_family_level_summary_manuscript.csv,main_table,n_basic_screening,int64,Number of records in the family passing the basic electrochemical screen.
+table_3_family_level_summary_manuscript.csv,main_table,n_hard_exclusion_free,int64,Number of basic-screening-pass records without workflow-defined hard-exclusion elements.
+table_3_family_level_summary_manuscript.csv,main_table,n_conservative,int64,Number of records passing the stricter conservative earth-abundance proxy.
+table_3_family_level_summary_manuscript.csv,main_table,n_exact_cde,int64,Number of records with exact ChemDataExtractor-derived formula-level literature evidence.
+table_4_top20_candidate_shortlist_manuscript.csv,main_table,rank,int64,Rank of the candidate in the top-20 manuscript shortlist.
+table_4_top20_candidate_shortlist_manuscript.csv,main_table,mp_index,int64,Internal record index linking processed tables.
+table_4_top20_candidate_shortlist_manuscript.csv,main_table,battery_formula,str,Formula label associated with the battery electrode record.
+table_4_top20_candidate_shortlist_manuscript.csv,main_table,formula_discharge,str,Computed discharged-state formula where available.
+table_4_top20_candidate_shortlist_manuscript.csv,main_table,framework_formula,str,Framework-level formula used for grouping or deduplication where available.
+table_4_top20_candidate_shortlist_manuscript.csv,main_table,preliminary_family,str,Heuristic chemistry-family label.
 table_4_top20_candidate_shortlist_manuscript.csv,main_table,average_voltage,float64,Computed average voltage in volts.
 table_4_top20_candidate_shortlist_manuscript.csv,main_table,capacity_grav,float64,Computed gravimetric capacity in mAh g^-1.
 table_4_top20_candidate_shortlist_manuscript.csv,main_table,energy_grav,float64,Computed gravimetric energy in Wh kg^-1.
-table_4_top20_candidate_shortlist_manuscript.csv,main_table,max_delta_volume,float64,Maximum volume change percentage reported for the electrode record.
-table_4_top20_candidate_shortlist_manuscript.csv,main_table,stability_charge,float64,Charged-state thermodynamic stability metric in eV atom^-1.
-table_4_top20_candidate_shortlist_manuscript.csv,main_table,stability_discharge,float64,Discharged-state thermodynamic stability metric in eV atom^-1.
-table_4_top20_candidate_shortlist_manuscript.csv,main_table,mp_preliminary_score,float64,Workflow-derived preliminary priority score from Materials Project-derived properties.
-table_4_top20_candidate_shortlist_manuscript.csv,main_table,final_decision_support_score,float64,Final decision-support score used for shortlist ranking.
-table_4_top20_candidate_shortlist_manuscript.csv,main_table,conservative_earth_abundant_candidate,bool,Whether the record satisfies the conservative earth-abundance proxy.
-table_4_top20_candidate_shortlist_manuscript.csv,main_table,cde_exact_formula_match,bool,Whether exact formula-level text-mined evidence was found.
-table_4_top20_candidate_shortlist_manuscript.csv,main_table,cde_total_doi_count,float64,Number of DOI-linked text-mined literature records associated with the formula.
-table_4_top20_candidate_shortlist_manuscript.csv,main_table,cde_capacity_median,float64,Median capacity extracted from matching text-mined evidence where available.
-table_4_top20_candidate_shortlist_manuscript.csv,main_table,cde_voltage_median,float64,Median voltage extracted from matching text-mined evidence where available.
-table_4_top20_candidate_shortlist_manuscript.csv,main_table,cde_energy_median,float64,Median energy extracted from matching text-mined evidence where available.
-Supplementary_Table_S6_full_95_entry_shortlist.csv,supplementary_table,mp_index,int64,Internal Materials Project electrode-record index.
-Supplementary_Table_S6_full_95_entry_shortlist.csv,supplementary_table,battery_formula,str,Battery formula for the shortlisted record.
-Supplementary_Table_S6_full_95_entry_shortlist.csv,supplementary_table,formula_discharge,str,Discharged-state formula used for interpretation.
-Supplementary_Table_S6_full_95_entry_shortlist.csv,supplementary_table,framework_formula,str,Framework formula used for deduplication and grouping.
-Supplementary_Table_S6_full_95_entry_shortlist.csv,supplementary_table,preliminary_family,str,Preliminary chemistry-family assignment.
-Supplementary_Table_S6_full_95_entry_shortlist.csv,supplementary_table,average_voltage,float64,Computed average voltage in volts.
-Supplementary_Table_S6_full_95_entry_shortlist.csv,supplementary_table,capacity_grav,float64,Computed gravimetric capacity in mAh g^-1.
-Supplementary_Table_S6_full_95_entry_shortlist.csv,supplementary_table,energy_grav,float64,Computed gravimetric energy in Wh kg^-1.
-Supplementary_Table_S6_full_95_entry_shortlist.csv,supplementary_table,max_delta_volume,float64,Maximum volume change percentage.
-Supplementary_Table_S6_full_95_entry_shortlist.csv,supplementary_table,stability_charge,float64,Charged-state thermodynamic stability metric in eV atom^-1.
-Supplementary_Table_S6_full_95_entry_shortlist.csv,supplementary_table,stability_discharge,float64,Discharged-state thermodynamic stability metric in eV atom^-1.
-Supplementary_Table_S6_full_95_entry_shortlist.csv,supplementary_table,mp_preliminary_score,float64,Workflow-derived preliminary priority score.
-Supplementary_Table_S6_full_95_entry_shortlist.csv,supplementary_table,final_decision_support_score,float64,Final decision-support score.
-Supplementary_Table_S6_full_95_entry_shortlist.csv,supplementary_table,conservative_earth_abundant_candidate,bool,Whether the entry satisfies the conservative criticality-aware proxy.
-Supplementary_Table_S6_full_95_entry_shortlist.csv,supplementary_table,cde_exact_formula_match,bool,Whether exact formula-level text-mined evidence was found.
-Supplementary_Table_S6_full_95_entry_shortlist.csv,supplementary_table,cde_total_doi_count,float64,Number of DOI-linked text-mined records for the formula.
-Supplementary_Table_S6_full_95_entry_shortlist.csv,supplementary_table,evidence_class,str,Qualitative evidence class assigned from the text-mined match status.
-Supplementary_Table_S3_feature_leakage_audit.csv,supplementary_table,feature,str,Descriptor name audited for target-adjacent leakage risk.
-Supplementary_Table_S3_feature_leakage_audit.csv,supplementary_table,feature_family,str,Descriptor family or source.
-Supplementary_Table_S3_feature_leakage_audit.csv,supplementary_table,protocols_containing_feature,str,Descriptor protocols containing the feature.
-Supplementary_Table_S3_feature_leakage_audit.csv,supplementary_table,risk_for_targets,str,Targets for which the feature was considered leakage-prone or target-adjacent.
-Supplementary_Table_S3_feature_leakage_audit.csv,supplementary_table,decision,str,Feature-retention or feature-removal decision used in leakage-corrected analysis.
-Supplementary_Table_S3_feature_leakage_audit.csv,supplementary_table,is_direct_na_target_feature,bool,Whether the descriptor directly encodes Na stoichiometry relevant to capacity/energy targets.
-Supplementary_Table_S3_feature_leakage_audit.csv,supplementary_table,is_direct_stability_component,bool,Whether the descriptor is a direct component of the derived stability target.
-Supplementary_Table_S3_feature_leakage_audit.csv,supplementary_table,is_post_DFT_feature,bool,Whether the descriptor is a post-DFT electrode descriptor.
-Supplementary_Table_S4_leakage_corrected_ml_performance.csv,supplementary_table,target,str,Predicted target property in the leakage-corrected ML audit.
-Supplementary_Table_S4_leakage_corrected_ml_performance.csv,supplementary_table,unit,str,Unit of the predicted target.
-Supplementary_Table_S4_leakage_corrected_ml_performance.csv,supplementary_table,protocol,str,Descriptor protocol used.
-Supplementary_Table_S4_leakage_corrected_ml_performance.csv,supplementary_table,variant,str,Feature-cleaning or leakage-correction variant.
-Supplementary_Table_S4_leakage_corrected_ml_performance.csv,supplementary_table,model,str,Best model for the target/protocol/variant setting.
-Supplementary_Table_S4_leakage_corrected_ml_performance.csv,supplementary_table,n_samples,int64,Number of evaluated samples.
-Supplementary_Table_S4_leakage_corrected_ml_performance.csv,supplementary_table,n_features,int64,Number of model input features after filtering.
-Supplementary_Table_S4_leakage_corrected_ml_performance.csv,supplementary_table,n_groups,int64,Number of groups used for grouped cross-validation.
-Supplementary_Table_S4_leakage_corrected_ml_performance.csv,supplementary_table,removed_features,str,Features removed for leakage-corrected analysis.
-Supplementary_Table_S4_leakage_corrected_ml_performance.csv,supplementary_table,rmse,float64,Root mean squared error.
-Supplementary_Table_S4_leakage_corrected_ml_performance.csv,supplementary_table,mae,float64,Mean absolute error.
-Supplementary_Table_S4_leakage_corrected_ml_performance.csv,supplementary_table,r2,float64,Coefficient of determination.
-Supplementary_Table_S4_leakage_corrected_ml_performance.csv,supplementary_table,spearman,float64,Spearman rank correlation.
-Supplementary_Table_S4_leakage_corrected_ml_performance.csv,supplementary_table,top20_hit_rate,float64,Hit rate for high-priority candidates in the model-ranked top-20 set.
-Supplementary_Table_S4_leakage_corrected_ml_performance.csv,supplementary_table,top20_enrichment,float64,Top-20 enrichment relative to baseline selection.
-Supplementary_Table_S4_leakage_corrected_ml_performance.csv,supplementary_table,baseline_rmse,float64,RMSE of the baseline model or reference predictor.
-Supplementary_Table_S4_leakage_corrected_ml_performance.csv,supplementary_table,baseline_mae,float64,MAE of the baseline model or reference predictor.
+table_4_top20_candidate_shortlist_manuscript.csv,main_table,conservative_earth_abundant_candidate,bool,Whether the candidate passes the stricter conservative earth-abundance proxy.
+table_4_top20_candidate_shortlist_manuscript.csv,main_table,cde_exact_formula_match,bool,Whether exact formula-level ChemDataExtractor-derived literature evidence was detected.
+table_4_top20_candidate_shortlist_manuscript.csv,main_table,cde_total_doi_count,int64,Number of unique DOI-level evidence records linked by exact formula matching.
+Supplementary_Table_S3_feature_leakage_audit.csv,supplementary_table,feature,str,Descriptor name assessed during leakage audit.
+Supplementary_Table_S3_feature_leakage_audit.csv,supplementary_table,risk_for_targets,str,Target or targets for which the descriptor was flagged as direct or near-target leakage risk.
+Supplementary_Table_S3_feature_leakage_audit.csv,supplementary_table,decision,str,Feature-treatment decision used in leakage-corrected analyses.
+Supplementary_Table_S4_leakage_corrected_ml_performance.csv,supplementary_table,target,str,Electrode target used in leakage-corrected grouped-CV analysis.
+Supplementary_Table_S4_leakage_corrected_ml_performance.csv,supplementary_table,protocol,str,Descriptor protocol used in the model run.
+Supplementary_Table_S4_leakage_corrected_ml_performance.csv,supplementary_table,variant,str,Feature-set variant indicating original or target-specific leakage-corrected analysis.
+Supplementary_Table_S4_leakage_corrected_ml_performance.csv,supplementary_table,model,str,Best model family for the row.
+Supplementary_Table_S4_leakage_corrected_ml_performance.csv,supplementary_table,rmse,float64,Root mean squared error under grouped cross-validation.
+Supplementary_Table_S4_leakage_corrected_ml_performance.csv,supplementary_table,r2,float64,Coefficient of determination under grouped cross-validation.
+Supplementary_Table_S4_leakage_corrected_ml_performance.csv,supplementary_table,spearman,float64,Spearman rank correlation under grouped cross-validation.
