@@ -24,18 +24,24 @@ Notebook 06 performs target-specific leakage auditing. Na-stoichiometry near-tar
 ## Repository structure
 
 ```text
-01–06 `.ipynb` files at repository root   Reproducible analysis notebooks
-data/processed/                  Main manuscript tables
-data/figure_data/                CSV files used to create figures
-data/supplementary/              Supporting leakage-audit, screening, shortlist, and provenance files
-figures/main_figures/            Main figures as PNG and PDF
-figures/supplementary_figures/   Supplementary figures as PNG and PDF
-manuscript_assets/               Captions and claim-control text blocks
+01_mp_data_extraction.ipynb                    Materials Project extraction and initial processing
+02_cde_evidence_matching.ipynb                 ChemDataExtractor-derived evidence matching
+03_ml_protocols.ipynb                          Descriptor construction, screening, ML, and shortlist generation
+04_figures_tables_manuscript_framing.ipynb     Manuscript tables and figure data
+05_repository_submission_packaging.ipynb       Packaging utility notebook, not required for result reproduction
+06_leakage_corrected_ml_and_submission_repair.ipynb  Leakage audit and corrected ML interpretation
+data/processed/                                Main manuscript tables
+data/figure_data/                              CSV files used to create figures
+data/supplementary/                            Supplementary tables and leakage-audit files
+figures/main_figures/                          Main figures as PNG and PDF
+figures/supplementary_figures/                 Supplementary figures as PNG and PDF
+manuscript_assets/                             Captions and claim-control text blocks
+audit/                                         Output and repository audit files
 ```
 
 ## Run order
 
-See [`RUN_ORDER.md`](RUN_ORDER.md).
+See [`RUN_ORDER.md`](RUN_ORDER.md). Notebook 05 is a packaging utility and is not required to reproduce the scientific results.
 
 ## Data availability
 

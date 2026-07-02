@@ -1,95 +1,95 @@
 file,category,column,dtype_observed,description
-table_1_dataset_funnel.csv,main_table,stage_order,int64,TO_REVIEW: automatically listed; edit description before final repository release.
-table_1_dataset_funnel.csv,main_table,stage,str,TO_REVIEW: automatically listed; edit description before final repository release.
-table_1_dataset_funnel.csv,main_table,count,int64,TO_REVIEW: automatically listed; edit description before final repository release.
-table_1_dataset_funnel.csv,main_table,interpretation,str,TO_REVIEW: automatically listed; edit description before final repository release.
-table_1_dataset_funnel.csv,main_table,percentage_of_total,float64,TO_REVIEW: automatically listed; edit description before final repository release.
-table_2_ml_grouped_cv_summary_LEAKAGE_CORRECTED.csv,main_table,Target,str,TO_REVIEW: automatically listed; edit description before final repository release.
-table_2_ml_grouped_cv_summary_LEAKAGE_CORRECTED.csv,main_table,Unit,str,TO_REVIEW: automatically listed; edit description before final repository release.
-table_2_ml_grouped_cv_summary_LEAKAGE_CORRECTED.csv,main_table,Protocol,str,TO_REVIEW: automatically listed; edit description before final repository release.
-table_2_ml_grouped_cv_summary_LEAKAGE_CORRECTED.csv,main_table,Best model,str,TO_REVIEW: automatically listed; edit description before final repository release.
-table_2_ml_grouped_cv_summary_LEAKAGE_CORRECTED.csv,main_table,n,int64,TO_REVIEW: automatically listed; edit description before final repository release.
-table_2_ml_grouped_cv_summary_LEAKAGE_CORRECTED.csv,main_table,Features,int64,TO_REVIEW: automatically listed; edit description before final repository release.
-table_2_ml_grouped_cv_summary_LEAKAGE_CORRECTED.csv,main_table,Groups,int64,TO_REVIEW: automatically listed; edit description before final repository release.
-table_2_ml_grouped_cv_summary_LEAKAGE_CORRECTED.csv,main_table,RMSE,float64,TO_REVIEW: automatically listed; edit description before final repository release.
-table_2_ml_grouped_cv_summary_LEAKAGE_CORRECTED.csv,main_table,MAE,float64,TO_REVIEW: automatically listed; edit description before final repository release.
-table_2_ml_grouped_cv_summary_LEAKAGE_CORRECTED.csv,main_table,R2,float64,TO_REVIEW: automatically listed; edit description before final repository release.
-table_2_ml_grouped_cv_summary_LEAKAGE_CORRECTED.csv,main_table,Spearman,float64,TO_REVIEW: automatically listed; edit description before final repository release.
-table_2_ml_grouped_cv_summary_LEAKAGE_CORRECTED.csv,main_table,Top-20 enrichment,float64,TO_REVIEW: automatically listed; edit description before final repository release.
-table_2_ml_grouped_cv_summary_LEAKAGE_CORRECTED.csv,main_table,Leakage treatment,str,TO_REVIEW: automatically listed; edit description before final repository release.
-table_3_family_level_summary_manuscript.csv,main_table,preliminary_family,str,TO_REVIEW: automatically listed; edit description before final repository release.
-table_3_family_level_summary_manuscript.csv,main_table,n_records,int64,TO_REVIEW: automatically listed; edit description before final repository release.
-table_3_family_level_summary_manuscript.csv,main_table,n_basic_screening,int64,TO_REVIEW: automatically listed; edit description before final repository release.
-table_3_family_level_summary_manuscript.csv,main_table,n_hard_exclusion_free,int64,TO_REVIEW: automatically listed; edit description before final repository release.
-table_3_family_level_summary_manuscript.csv,main_table,n_conservative,int64,TO_REVIEW: automatically listed; edit description before final repository release.
-table_3_family_level_summary_manuscript.csv,main_table,n_exact_cde,int64,TO_REVIEW: automatically listed; edit description before final repository release.
-table_3_family_level_summary_manuscript.csv,main_table,median_voltage,float64,TO_REVIEW: automatically listed; edit description before final repository release.
-table_3_family_level_summary_manuscript.csv,main_table,median_capacity,float64,TO_REVIEW: automatically listed; edit description before final repository release.
-table_3_family_level_summary_manuscript.csv,main_table,median_energy,float64,TO_REVIEW: automatically listed; edit description before final repository release.
-table_3_family_level_summary_manuscript.csv,main_table,median_mp_score,float64,TO_REVIEW: automatically listed; edit description before final repository release.
-table_3_family_level_summary_manuscript.csv,main_table,basic_screening_rate_percent,float64,TO_REVIEW: automatically listed; edit description before final repository release.
-table_3_family_level_summary_manuscript.csv,main_table,hard_exclusion_free_rate_percent,float64,TO_REVIEW: automatically listed; edit description before final repository release.
-table_3_family_level_summary_manuscript.csv,main_table,conservative_rate_percent,float64,TO_REVIEW: automatically listed; edit description before final repository release.
-table_3_family_level_summary_manuscript.csv,main_table,exact_cde_rate_percent,float64,TO_REVIEW: automatically listed; edit description before final repository release.
-table_4_top20_candidate_shortlist_manuscript.csv,main_table,rank,int64,TO_REVIEW: automatically listed; edit description before final repository release.
-table_4_top20_candidate_shortlist_manuscript.csv,main_table,mp_index,int64,TO_REVIEW: automatically listed; edit description before final repository release.
-table_4_top20_candidate_shortlist_manuscript.csv,main_table,battery_formula,str,TO_REVIEW: automatically listed; edit description before final repository release.
-table_4_top20_candidate_shortlist_manuscript.csv,main_table,formula_discharge,str,TO_REVIEW: automatically listed; edit description before final repository release.
-table_4_top20_candidate_shortlist_manuscript.csv,main_table,framework_formula,str,TO_REVIEW: automatically listed; edit description before final repository release.
-table_4_top20_candidate_shortlist_manuscript.csv,main_table,preliminary_family,str,TO_REVIEW: automatically listed; edit description before final repository release.
-table_4_top20_candidate_shortlist_manuscript.csv,main_table,average_voltage,float64,TO_REVIEW: automatically listed; edit description before final repository release.
-table_4_top20_candidate_shortlist_manuscript.csv,main_table,capacity_grav,float64,TO_REVIEW: automatically listed; edit description before final repository release.
-table_4_top20_candidate_shortlist_manuscript.csv,main_table,energy_grav,float64,TO_REVIEW: automatically listed; edit description before final repository release.
-table_4_top20_candidate_shortlist_manuscript.csv,main_table,max_delta_volume,float64,TO_REVIEW: automatically listed; edit description before final repository release.
-table_4_top20_candidate_shortlist_manuscript.csv,main_table,stability_charge,float64,TO_REVIEW: automatically listed; edit description before final repository release.
-table_4_top20_candidate_shortlist_manuscript.csv,main_table,stability_discharge,float64,TO_REVIEW: automatically listed; edit description before final repository release.
-table_4_top20_candidate_shortlist_manuscript.csv,main_table,mp_preliminary_score,float64,TO_REVIEW: automatically listed; edit description before final repository release.
-table_4_top20_candidate_shortlist_manuscript.csv,main_table,final_decision_support_score,float64,TO_REVIEW: automatically listed; edit description before final repository release.
-table_4_top20_candidate_shortlist_manuscript.csv,main_table,conservative_earth_abundant_candidate,bool,TO_REVIEW: automatically listed; edit description before final repository release.
-table_4_top20_candidate_shortlist_manuscript.csv,main_table,cde_exact_formula_match,bool,TO_REVIEW: automatically listed; edit description before final repository release.
-table_4_top20_candidate_shortlist_manuscript.csv,main_table,cde_total_doi_count,float64,TO_REVIEW: automatically listed; edit description before final repository release.
-table_4_top20_candidate_shortlist_manuscript.csv,main_table,cde_capacity_median,float64,TO_REVIEW: automatically listed; edit description before final repository release.
-table_4_top20_candidate_shortlist_manuscript.csv,main_table,cde_voltage_median,float64,TO_REVIEW: automatically listed; edit description before final repository release.
-table_4_top20_candidate_shortlist_manuscript.csv,main_table,cde_energy_median,float64,TO_REVIEW: automatically listed; edit description before final repository release.
-Supplementary_Table_S6_full_95_entry_shortlist.csv,supplementary_table,mp_index,int64,TO_REVIEW: automatically listed; edit description before final repository release.
-Supplementary_Table_S6_full_95_entry_shortlist.csv,supplementary_table,battery_formula,str,TO_REVIEW: automatically listed; edit description before final repository release.
-Supplementary_Table_S6_full_95_entry_shortlist.csv,supplementary_table,formula_discharge,str,TO_REVIEW: automatically listed; edit description before final repository release.
-Supplementary_Table_S6_full_95_entry_shortlist.csv,supplementary_table,framework_formula,str,TO_REVIEW: automatically listed; edit description before final repository release.
-Supplementary_Table_S6_full_95_entry_shortlist.csv,supplementary_table,preliminary_family,str,TO_REVIEW: automatically listed; edit description before final repository release.
-Supplementary_Table_S6_full_95_entry_shortlist.csv,supplementary_table,average_voltage,float64,TO_REVIEW: automatically listed; edit description before final repository release.
-Supplementary_Table_S6_full_95_entry_shortlist.csv,supplementary_table,capacity_grav,float64,TO_REVIEW: automatically listed; edit description before final repository release.
-Supplementary_Table_S6_full_95_entry_shortlist.csv,supplementary_table,energy_grav,float64,TO_REVIEW: automatically listed; edit description before final repository release.
-Supplementary_Table_S6_full_95_entry_shortlist.csv,supplementary_table,max_delta_volume,float64,TO_REVIEW: automatically listed; edit description before final repository release.
-Supplementary_Table_S6_full_95_entry_shortlist.csv,supplementary_table,stability_charge,float64,TO_REVIEW: automatically listed; edit description before final repository release.
-Supplementary_Table_S6_full_95_entry_shortlist.csv,supplementary_table,stability_discharge,float64,TO_REVIEW: automatically listed; edit description before final repository release.
-Supplementary_Table_S6_full_95_entry_shortlist.csv,supplementary_table,mp_preliminary_score,float64,TO_REVIEW: automatically listed; edit description before final repository release.
-Supplementary_Table_S6_full_95_entry_shortlist.csv,supplementary_table,final_decision_support_score,float64,TO_REVIEW: automatically listed; edit description before final repository release.
-Supplementary_Table_S6_full_95_entry_shortlist.csv,supplementary_table,conservative_earth_abundant_candidate,bool,TO_REVIEW: automatically listed; edit description before final repository release.
-Supplementary_Table_S6_full_95_entry_shortlist.csv,supplementary_table,cde_exact_formula_match,bool,TO_REVIEW: automatically listed; edit description before final repository release.
-Supplementary_Table_S6_full_95_entry_shortlist.csv,supplementary_table,cde_total_doi_count,float64,TO_REVIEW: automatically listed; edit description before final repository release.
-Supplementary_Table_S6_full_95_entry_shortlist.csv,supplementary_table,evidence_class,str,TO_REVIEW: automatically listed; edit description before final repository release.
-Supplementary_Table_S3_feature_leakage_audit.csv,supplementary_table,feature,str,TO_REVIEW: automatically listed; edit description before final repository release.
-Supplementary_Table_S3_feature_leakage_audit.csv,supplementary_table,feature_family,str,TO_REVIEW: automatically listed; edit description before final repository release.
-Supplementary_Table_S3_feature_leakage_audit.csv,supplementary_table,protocols_containing_feature,str,TO_REVIEW: automatically listed; edit description before final repository release.
-Supplementary_Table_S3_feature_leakage_audit.csv,supplementary_table,risk_for_targets,str,TO_REVIEW: automatically listed; edit description before final repository release.
-Supplementary_Table_S3_feature_leakage_audit.csv,supplementary_table,decision,str,TO_REVIEW: automatically listed; edit description before final repository release.
-Supplementary_Table_S3_feature_leakage_audit.csv,supplementary_table,is_direct_na_target_feature,bool,TO_REVIEW: automatically listed; edit description before final repository release.
-Supplementary_Table_S3_feature_leakage_audit.csv,supplementary_table,is_direct_stability_component,bool,TO_REVIEW: automatically listed; edit description before final repository release.
-Supplementary_Table_S3_feature_leakage_audit.csv,supplementary_table,is_post_DFT_feature,bool,TO_REVIEW: automatically listed; edit description before final repository release.
-Supplementary_Table_S4_leakage_corrected_ml_performance.csv,supplementary_table,target,str,TO_REVIEW: automatically listed; edit description before final repository release.
-Supplementary_Table_S4_leakage_corrected_ml_performance.csv,supplementary_table,unit,str,TO_REVIEW: automatically listed; edit description before final repository release.
-Supplementary_Table_S4_leakage_corrected_ml_performance.csv,supplementary_table,protocol,str,TO_REVIEW: automatically listed; edit description before final repository release.
-Supplementary_Table_S4_leakage_corrected_ml_performance.csv,supplementary_table,variant,str,TO_REVIEW: automatically listed; edit description before final repository release.
-Supplementary_Table_S4_leakage_corrected_ml_performance.csv,supplementary_table,model,str,TO_REVIEW: automatically listed; edit description before final repository release.
-Supplementary_Table_S4_leakage_corrected_ml_performance.csv,supplementary_table,n_samples,int64,TO_REVIEW: automatically listed; edit description before final repository release.
-Supplementary_Table_S4_leakage_corrected_ml_performance.csv,supplementary_table,n_features,int64,TO_REVIEW: automatically listed; edit description before final repository release.
-Supplementary_Table_S4_leakage_corrected_ml_performance.csv,supplementary_table,n_groups,int64,TO_REVIEW: automatically listed; edit description before final repository release.
-Supplementary_Table_S4_leakage_corrected_ml_performance.csv,supplementary_table,removed_features,str,TO_REVIEW: automatically listed; edit description before final repository release.
-Supplementary_Table_S4_leakage_corrected_ml_performance.csv,supplementary_table,rmse,float64,TO_REVIEW: automatically listed; edit description before final repository release.
-Supplementary_Table_S4_leakage_corrected_ml_performance.csv,supplementary_table,mae,float64,TO_REVIEW: automatically listed; edit description before final repository release.
-Supplementary_Table_S4_leakage_corrected_ml_performance.csv,supplementary_table,r2,float64,TO_REVIEW: automatically listed; edit description before final repository release.
-Supplementary_Table_S4_leakage_corrected_ml_performance.csv,supplementary_table,spearman,float64,TO_REVIEW: automatically listed; edit description before final repository release.
-Supplementary_Table_S4_leakage_corrected_ml_performance.csv,supplementary_table,top20_hit_rate,float64,TO_REVIEW: automatically listed; edit description before final repository release.
-Supplementary_Table_S4_leakage_corrected_ml_performance.csv,supplementary_table,top20_enrichment,float64,TO_REVIEW: automatically listed; edit description before final repository release.
-Supplementary_Table_S4_leakage_corrected_ml_performance.csv,supplementary_table,baseline_rmse,float64,TO_REVIEW: automatically listed; edit description before final repository release.
-Supplementary_Table_S4_leakage_corrected_ml_performance.csv,supplementary_table,baseline_mae,float64,TO_REVIEW: automatically listed; edit description before final repository release.
+table_1_dataset_funnel.csv,main_table,stage_order,int64,Sequential order of the screening or reporting stage.
+table_1_dataset_funnel.csv,main_table,stage,str,"Name of screening, filtering, or reporting stage."
+table_1_dataset_funnel.csv,main_table,count,int64,Number of records at the given stage.
+table_1_dataset_funnel.csv,main_table,interpretation,str,Short explanation of the reported count.
+table_1_dataset_funnel.csv,main_table,percentage_of_total,float64,Percentage relative to 416 initial Materials Project sodium-ion electrode records.
+table_2_ml_grouped_cv_summary_LEAKAGE_CORRECTED.csv,main_table,Target,str,Predicted property used in the machine-learning benchmark.
+table_2_ml_grouped_cv_summary_LEAKAGE_CORRECTED.csv,main_table,Unit,str,Physical unit for the target property.
+table_2_ml_grouped_cv_summary_LEAKAGE_CORRECTED.csv,main_table,Protocol,str,Descriptor protocol used for model evaluation.
+table_2_ml_grouped_cv_summary_LEAKAGE_CORRECTED.csv,main_table,Best model,str,Best-performing model selected for the target/protocol summary.
+table_2_ml_grouped_cv_summary_LEAKAGE_CORRECTED.csv,main_table,n,int64,Number of samples used in evaluation.
+table_2_ml_grouped_cv_summary_LEAKAGE_CORRECTED.csv,main_table,Features,int64,Number of model features after target-specific exclusions.
+table_2_ml_grouped_cv_summary_LEAKAGE_CORRECTED.csv,main_table,Groups,int64,Number of framework/formula groups used in grouped cross-validation.
+table_2_ml_grouped_cv_summary_LEAKAGE_CORRECTED.csv,main_table,RMSE,float64,Root-mean-square error under grouped cross-validation.
+table_2_ml_grouped_cv_summary_LEAKAGE_CORRECTED.csv,main_table,MAE,float64,Mean absolute error under grouped cross-validation.
+table_2_ml_grouped_cv_summary_LEAKAGE_CORRECTED.csv,main_table,R2,float64,Coefficient of determination under grouped cross-validation.
+table_2_ml_grouped_cv_summary_LEAKAGE_CORRECTED.csv,main_table,Spearman,float64,Spearman rank correlation under grouped cross-validation.
+table_2_ml_grouped_cv_summary_LEAKAGE_CORRECTED.csv,main_table,Top-20 enrichment,float64,Top-candidate enrichment metric used for decision-support ranking.
+table_2_ml_grouped_cv_summary_LEAKAGE_CORRECTED.csv,main_table,Leakage treatment,str,Features removed or retained during leakage-aware evaluation.
+table_3_family_level_summary_manuscript.csv,main_table,preliminary_family,str,Rule-based preliminary chemistry family label.
+table_3_family_level_summary_manuscript.csv,main_table,n_records,int64,Column `n_records` from table_3_family_level_summary_manuscript.csv; generated by the submitted workflow and documented by the associated notebook/table context.
+table_3_family_level_summary_manuscript.csv,main_table,n_basic_screening,int64,Column `n_basic_screening` from table_3_family_level_summary_manuscript.csv; generated by the submitted workflow and documented by the associated notebook/table context.
+table_3_family_level_summary_manuscript.csv,main_table,n_hard_exclusion_free,int64,Column `n_hard_exclusion_free` from table_3_family_level_summary_manuscript.csv; generated by the submitted workflow and documented by the associated notebook/table context.
+table_3_family_level_summary_manuscript.csv,main_table,n_conservative,int64,Column `n_conservative` from table_3_family_level_summary_manuscript.csv; generated by the submitted workflow and documented by the associated notebook/table context.
+table_3_family_level_summary_manuscript.csv,main_table,n_exact_cde,int64,Column `n_exact_cde` from table_3_family_level_summary_manuscript.csv; generated by the submitted workflow and documented by the associated notebook/table context.
+table_3_family_level_summary_manuscript.csv,main_table,median_voltage,float64,Column `median_voltage` from table_3_family_level_summary_manuscript.csv; generated by the submitted workflow and documented by the associated notebook/table context.
+table_3_family_level_summary_manuscript.csv,main_table,median_capacity,float64,Column `median_capacity` from table_3_family_level_summary_manuscript.csv; generated by the submitted workflow and documented by the associated notebook/table context.
+table_3_family_level_summary_manuscript.csv,main_table,median_energy,float64,Column `median_energy` from table_3_family_level_summary_manuscript.csv; generated by the submitted workflow and documented by the associated notebook/table context.
+table_3_family_level_summary_manuscript.csv,main_table,median_mp_score,float64,Column `median_mp_score` from table_3_family_level_summary_manuscript.csv; generated by the submitted workflow and documented by the associated notebook/table context.
+table_3_family_level_summary_manuscript.csv,main_table,basic_screening_rate_percent,float64,Column `basic_screening_rate_percent` from table_3_family_level_summary_manuscript.csv; generated by the submitted workflow and documented by the associated notebook/table context.
+table_3_family_level_summary_manuscript.csv,main_table,hard_exclusion_free_rate_percent,float64,Column `hard_exclusion_free_rate_percent` from table_3_family_level_summary_manuscript.csv; generated by the submitted workflow and documented by the associated notebook/table context.
+table_3_family_level_summary_manuscript.csv,main_table,conservative_rate_percent,float64,Column `conservative_rate_percent` from table_3_family_level_summary_manuscript.csv; generated by the submitted workflow and documented by the associated notebook/table context.
+table_3_family_level_summary_manuscript.csv,main_table,exact_cde_rate_percent,float64,Column `exact_cde_rate_percent` from table_3_family_level_summary_manuscript.csv; generated by the submitted workflow and documented by the associated notebook/table context.
+table_4_top20_candidate_shortlist_manuscript.csv,main_table,rank,int64,Column `rank` from table_4_top20_candidate_shortlist_manuscript.csv; generated by the submitted workflow and documented by the associated notebook/table context.
+table_4_top20_candidate_shortlist_manuscript.csv,main_table,mp_index,int64,Internal row identifier used to join processed tables.
+table_4_top20_candidate_shortlist_manuscript.csv,main_table,battery_formula,str,Battery formula string from the processed electrode record.
+table_4_top20_candidate_shortlist_manuscript.csv,main_table,formula_discharge,str,Discharged formula string from the processed electrode record.
+table_4_top20_candidate_shortlist_manuscript.csv,main_table,framework_formula,str,Framework formula used for grouping or family interpretation.
+table_4_top20_candidate_shortlist_manuscript.csv,main_table,preliminary_family,str,Rule-based preliminary chemistry family label.
+table_4_top20_candidate_shortlist_manuscript.csv,main_table,average_voltage,float64,Computed average intercalation voltage in volts.
+table_4_top20_candidate_shortlist_manuscript.csv,main_table,capacity_grav,float64,Computed gravimetric capacity in mAh g^-1.
+table_4_top20_candidate_shortlist_manuscript.csv,main_table,energy_grav,float64,Computed gravimetric energy in Wh kg^-1.
+table_4_top20_candidate_shortlist_manuscript.csv,main_table,max_delta_volume,float64,Maximum computed volume change percentage across the electrode reaction.
+table_4_top20_candidate_shortlist_manuscript.csv,main_table,stability_charge,float64,Charged-state stability metric in eV atom^-1.
+table_4_top20_candidate_shortlist_manuscript.csv,main_table,stability_discharge,float64,Discharged-state stability metric in eV atom^-1.
+table_4_top20_candidate_shortlist_manuscript.csv,main_table,mp_preliminary_score,float64,Preliminary Materials Project based decision-support score.
+table_4_top20_candidate_shortlist_manuscript.csv,main_table,final_decision_support_score,float64,Final workflow score used to prioritize candidates.
+table_4_top20_candidate_shortlist_manuscript.csv,main_table,conservative_earth_abundant_candidate,bool,Boolean flag for candidates passing the strict conservative criticality-aware subset.
+table_4_top20_candidate_shortlist_manuscript.csv,main_table,cde_exact_formula_match,bool,Boolean flag indicating exact formula-level text-mined evidence match.
+table_4_top20_candidate_shortlist_manuscript.csv,main_table,cde_total_doi_count,float64,Number of DOI-linked text-mined evidence records matched to the formula.
+table_4_top20_candidate_shortlist_manuscript.csv,main_table,cde_capacity_median,float64,Column `cde_capacity_median` from table_4_top20_candidate_shortlist_manuscript.csv; generated by the submitted workflow and documented by the associated notebook/table context.
+table_4_top20_candidate_shortlist_manuscript.csv,main_table,cde_voltage_median,float64,Column `cde_voltage_median` from table_4_top20_candidate_shortlist_manuscript.csv; generated by the submitted workflow and documented by the associated notebook/table context.
+table_4_top20_candidate_shortlist_manuscript.csv,main_table,cde_energy_median,float64,Column `cde_energy_median` from table_4_top20_candidate_shortlist_manuscript.csv; generated by the submitted workflow and documented by the associated notebook/table context.
+Supplementary_Table_S6_full_95_entry_shortlist.csv,supplementary_table,mp_index,int64,Internal row identifier used to join processed tables.
+Supplementary_Table_S6_full_95_entry_shortlist.csv,supplementary_table,battery_formula,str,Battery formula string from the processed electrode record.
+Supplementary_Table_S6_full_95_entry_shortlist.csv,supplementary_table,formula_discharge,str,Discharged formula string from the processed electrode record.
+Supplementary_Table_S6_full_95_entry_shortlist.csv,supplementary_table,framework_formula,str,Framework formula used for grouping or family interpretation.
+Supplementary_Table_S6_full_95_entry_shortlist.csv,supplementary_table,preliminary_family,str,Rule-based preliminary chemistry family label.
+Supplementary_Table_S6_full_95_entry_shortlist.csv,supplementary_table,average_voltage,float64,Computed average intercalation voltage in volts.
+Supplementary_Table_S6_full_95_entry_shortlist.csv,supplementary_table,capacity_grav,float64,Computed gravimetric capacity in mAh g^-1.
+Supplementary_Table_S6_full_95_entry_shortlist.csv,supplementary_table,energy_grav,float64,Computed gravimetric energy in Wh kg^-1.
+Supplementary_Table_S6_full_95_entry_shortlist.csv,supplementary_table,max_delta_volume,float64,Maximum computed volume change percentage across the electrode reaction.
+Supplementary_Table_S6_full_95_entry_shortlist.csv,supplementary_table,stability_charge,float64,Charged-state stability metric in eV atom^-1.
+Supplementary_Table_S6_full_95_entry_shortlist.csv,supplementary_table,stability_discharge,float64,Discharged-state stability metric in eV atom^-1.
+Supplementary_Table_S6_full_95_entry_shortlist.csv,supplementary_table,mp_preliminary_score,float64,Preliminary Materials Project based decision-support score.
+Supplementary_Table_S6_full_95_entry_shortlist.csv,supplementary_table,final_decision_support_score,float64,Final workflow score used to prioritize candidates.
+Supplementary_Table_S6_full_95_entry_shortlist.csv,supplementary_table,conservative_earth_abundant_candidate,bool,Boolean flag for candidates passing the strict conservative criticality-aware subset.
+Supplementary_Table_S6_full_95_entry_shortlist.csv,supplementary_table,cde_exact_formula_match,bool,Boolean flag indicating exact formula-level text-mined evidence match.
+Supplementary_Table_S6_full_95_entry_shortlist.csv,supplementary_table,cde_total_doi_count,float64,Number of DOI-linked text-mined evidence records matched to the formula.
+Supplementary_Table_S6_full_95_entry_shortlist.csv,supplementary_table,evidence_class,str,Summary class for text-mined literature evidence availability.
+Supplementary_Table_S3_feature_leakage_audit.csv,supplementary_table,feature,str,Descriptor name in the feature-leakage audit.
+Supplementary_Table_S3_feature_leakage_audit.csv,supplementary_table,feature_family,str,Descriptor family or source class.
+Supplementary_Table_S3_feature_leakage_audit.csv,supplementary_table,protocols_containing_feature,str,Descriptor protocols in which the feature appears.
+Supplementary_Table_S3_feature_leakage_audit.csv,supplementary_table,risk_for_targets,str,Targets for which the feature is considered target-adjacent or leakage-risk.
+Supplementary_Table_S3_feature_leakage_audit.csv,supplementary_table,decision,str,Leakage-audit decision for the feature.
+Supplementary_Table_S3_feature_leakage_audit.csv,supplementary_table,is_direct_na_target_feature,bool,Boolean flag for direct Na-stoichiometry-related target-adjacent features.
+Supplementary_Table_S3_feature_leakage_audit.csv,supplementary_table,is_direct_stability_component,bool,Boolean flag for stability-component features that define derived stability_worst.
+Supplementary_Table_S3_feature_leakage_audit.csv,supplementary_table,is_post_DFT_feature,bool,Boolean flag for post-DFT electrode descriptors.
+Supplementary_Table_S4_leakage_corrected_ml_performance.csv,supplementary_table,target,str,Column `target` from Supplementary_Table_S4_leakage_corrected_ml_performance.csv; generated by the submitted workflow and documented by the associated notebook/table context.
+Supplementary_Table_S4_leakage_corrected_ml_performance.csv,supplementary_table,unit,str,Column `unit` from Supplementary_Table_S4_leakage_corrected_ml_performance.csv; generated by the submitted workflow and documented by the associated notebook/table context.
+Supplementary_Table_S4_leakage_corrected_ml_performance.csv,supplementary_table,protocol,str,Column `protocol` from Supplementary_Table_S4_leakage_corrected_ml_performance.csv; generated by the submitted workflow and documented by the associated notebook/table context.
+Supplementary_Table_S4_leakage_corrected_ml_performance.csv,supplementary_table,variant,str,Column `variant` from Supplementary_Table_S4_leakage_corrected_ml_performance.csv; generated by the submitted workflow and documented by the associated notebook/table context.
+Supplementary_Table_S4_leakage_corrected_ml_performance.csv,supplementary_table,model,str,Column `model` from Supplementary_Table_S4_leakage_corrected_ml_performance.csv; generated by the submitted workflow and documented by the associated notebook/table context.
+Supplementary_Table_S4_leakage_corrected_ml_performance.csv,supplementary_table,n_samples,int64,Column `n_samples` from Supplementary_Table_S4_leakage_corrected_ml_performance.csv; generated by the submitted workflow and documented by the associated notebook/table context.
+Supplementary_Table_S4_leakage_corrected_ml_performance.csv,supplementary_table,n_features,int64,Column `n_features` from Supplementary_Table_S4_leakage_corrected_ml_performance.csv; generated by the submitted workflow and documented by the associated notebook/table context.
+Supplementary_Table_S4_leakage_corrected_ml_performance.csv,supplementary_table,n_groups,int64,Column `n_groups` from Supplementary_Table_S4_leakage_corrected_ml_performance.csv; generated by the submitted workflow and documented by the associated notebook/table context.
+Supplementary_Table_S4_leakage_corrected_ml_performance.csv,supplementary_table,removed_features,str,Column `removed_features` from Supplementary_Table_S4_leakage_corrected_ml_performance.csv; generated by the submitted workflow and documented by the associated notebook/table context.
+Supplementary_Table_S4_leakage_corrected_ml_performance.csv,supplementary_table,rmse,float64,Column `rmse` from Supplementary_Table_S4_leakage_corrected_ml_performance.csv; generated by the submitted workflow and documented by the associated notebook/table context.
+Supplementary_Table_S4_leakage_corrected_ml_performance.csv,supplementary_table,mae,float64,Column `mae` from Supplementary_Table_S4_leakage_corrected_ml_performance.csv; generated by the submitted workflow and documented by the associated notebook/table context.
+Supplementary_Table_S4_leakage_corrected_ml_performance.csv,supplementary_table,r2,float64,Column `r2` from Supplementary_Table_S4_leakage_corrected_ml_performance.csv; generated by the submitted workflow and documented by the associated notebook/table context.
+Supplementary_Table_S4_leakage_corrected_ml_performance.csv,supplementary_table,spearman,float64,Column `spearman` from Supplementary_Table_S4_leakage_corrected_ml_performance.csv; generated by the submitted workflow and documented by the associated notebook/table context.
+Supplementary_Table_S4_leakage_corrected_ml_performance.csv,supplementary_table,top20_hit_rate,float64,Column `top20_hit_rate` from Supplementary_Table_S4_leakage_corrected_ml_performance.csv; generated by the submitted workflow and documented by the associated notebook/table context.
+Supplementary_Table_S4_leakage_corrected_ml_performance.csv,supplementary_table,top20_enrichment,float64,Column `top20_enrichment` from Supplementary_Table_S4_leakage_corrected_ml_performance.csv; generated by the submitted workflow and documented by the associated notebook/table context.
+Supplementary_Table_S4_leakage_corrected_ml_performance.csv,supplementary_table,baseline_rmse,float64,Column `baseline_rmse` from Supplementary_Table_S4_leakage_corrected_ml_performance.csv; generated by the submitted workflow and documented by the associated notebook/table context.
+Supplementary_Table_S4_leakage_corrected_ml_performance.csv,supplementary_table,baseline_mae,float64,Column `baseline_mae` from Supplementary_Table_S4_leakage_corrected_ml_performance.csv; generated by the submitted workflow and documented by the associated notebook/table context.
