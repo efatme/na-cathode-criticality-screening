@@ -1,10 +1,12 @@
-# Criticality-aware materials informatics of sodium-ion cathode candidate prioritization using computed electrode descriptors and text-mined literature evidence
+# Criticality-aware materials informatics for sodium-ion cathode candidate prioritization
 
 This repository supports the submitted manuscript **NXSUST-D-26-01414** in *Next Sustainability*.
 
 ## Scope
 
-This repository contains a reproducible, criticality-aware materials-informatics workflow for sodium-ion cathode candidate prioritization. The workflow combines Materials Project sodium-ion electrode records, conservative criticality-aware filtering, ChemDataExtractor-derived text-mined battery evidence, grouped cross-validation machine learning, feature-leakage auditing, and manuscript-ready figures/tables.
+This repository contains a reproducible, criticality-aware materials-informatics workflow for sodium-ion cathode candidate prioritization using computed electrode descriptors and text-mined literature evidence.
+
+The workflow combines Materials Project sodium-ion electrode records, conservative criticality-aware filtering, ChemDataExtractor-derived text-mined battery evidence, grouped cross-validation machine learning, feature-leakage auditing, and manuscript-ready figures/tables.
 
 The study is a decision-support workflow. It does **not** experimentally validate cathodes and does **not** claim discovery of new cathode materials.
 
@@ -24,24 +26,19 @@ Notebook 06 performs target-specific leakage auditing. Na-stoichiometry near-tar
 ## Repository structure
 
 ```text
-01_mp_data_extraction.ipynb                    Materials Project extraction and initial processing
-02_cde_evidence_matching.ipynb                 ChemDataExtractor-derived evidence matching
-03_ml_protocols.ipynb                          Descriptor construction, screening, ML, and shortlist generation
-04_figures_tables_manuscript_framing.ipynb     Manuscript tables and figure data
-05_repository_submission_packaging.ipynb       Packaging utility notebook, not required for result reproduction
-06_leakage_corrected_ml_and_submission_repair.ipynb  Leakage audit and corrected ML interpretation
-data/processed/                                Main manuscript tables
-data/figure_data/                              CSV files used to create figures
-data/supplementary/                            Supplementary tables and leakage-audit files
-figures/main_figures/                          Main figures as PNG and PDF
-figures/supplementary_figures/                 Supplementary figures as PNG and PDF
-manuscript_assets/                             Captions and claim-control text blocks
-audit/                                         Output and repository audit files
+01–06 .ipynb files             Reproducible analysis notebooks
+data/processed/                Main manuscript tables
+data/figure_data/              CSV files used to create figures
+data/supplementary/            Supporting leakage-audit, screening, shortlist, and provenance files
+figures/main_figures/          Main figures as PNG and PDF
+figures/supplementary_figures/ Supplementary figures as PNG and PDF
+manuscript_assets/             Captions and claim-control text blocks
+audit/                         Repository and notebook audit files
 ```
 
 ## Run order
 
-See [`RUN_ORDER.md`](RUN_ORDER.md). Notebook 05 is a packaging utility and is not required to reproduce the scientific results.
+See [`RUN_ORDER.md`](RUN_ORDER.md).
 
 ## Data availability
 

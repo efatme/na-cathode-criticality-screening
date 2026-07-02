@@ -1,12 +1,12 @@
 # Notebook run order
 
-Run the notebooks in this order to reproduce the main submitted workflow.
+Run the notebooks in this order to reproduce the submitted workflow.
 
 1. `01_mp_data_extraction.ipynb`  
    Materials Project sodium-ion electrode extraction, correction, filtering, and provenance logging.
 
 2. `02_cde_evidence_matching.ipynb`  
-   ChemDataExtractor-derived battery database cleaning and exact formula-level literature-evidence matching.
+   ChemDataExtractor battery database cleaning and exact formula-level literature-evidence matching.
 
 3. `03_ml_protocols.ipynb`  
    Descriptor construction, Protocol A/B/C-strict ML, grouped cross-validation, candidate shortlist, and first-pass outputs.
@@ -16,10 +16,6 @@ Run the notebooks in this order to reproduce the main submitted workflow.
 
 5. `06_leakage_corrected_ml_and_submission_repair.ipynb`  
    Feature-leakage audit, leakage-corrected ML metrics, stability permutation test, and reviewer-safe ML interpretation.
-
-## Packaging utility
-
-`05_repository_submission_packaging.ipynb` is retained for transparency as a repository-packaging utility. It is not required to reproduce the scientific results reported in the submitted manuscript.
 
 ## Important notes
 
