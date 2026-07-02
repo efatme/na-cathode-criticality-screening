@@ -1,0 +1,15 @@
+file,exists,size_kb
+tables\table_1_dataset_funnel.csv,True,0.83
+tables\table_2_ml_grouped_cv_summary_manuscript.csv,True,1.41
+tables\table_3_family_level_summary_manuscript.csv,True,0.74
+tables\table_4_top20_candidate_shortlist_manuscript.csv,True,3.03
+tables\table_feature_importance_top20_by_target.csv,True,6.46
+figure_data\figure_data_candidate_funnel.csv,True,0.39
+figure_data\figure_data_ml_protocol_comparison.csv,True,1.64
+figure_data\figure_data_family_level_summary.csv,True,0.74
+figure_data\figure_data_candidate_voltage_capacity_energy_map.csv,True,23.38
+figure_data\figure_data_feature_importance_top20_by_target.csv,True,6.46
+manuscript_text\manuscript_framing_methods_results_limitations.md,True,3.44
+audit\notebook04_input_audit.csv,True,0.26
+audit\supplementary_file_manifest.csv,True,1.14
+audit\figure_table_checklist.csv,True,1.38

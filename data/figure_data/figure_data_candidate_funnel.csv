@@ -1,0 +1,8 @@
+stage_order,stage,count,percentage_of_total
+1,Materials Project Na-ion electrode records,416,100.0
+2,Basic electrochemical screening pass,164,39.42
+3,Hard-exclusion-free candidates,112,26.92
+4,Conservative earth-abundant candidates,56,13.46
+5,Conservative candidates with exact CDE evidence,18,4.33
+6,All final candidate shortlist records,112,26.92
+7,Unique manuscript shortlist,95,22.84

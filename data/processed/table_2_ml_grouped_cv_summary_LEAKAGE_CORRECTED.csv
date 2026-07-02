@@ -1,0 +1,13 @@
+Target,Unit,Protocol,Best model,n,Features,Groups,RMSE,MAE,R2,Spearman,Top-20 enrichment,Leakage treatment
+Average voltage,V,A: composition,ExtraTrees,416,61,321,0.772,0.553,0.679,0.795,3.125,none
+Average voltage,V,B: composition + lattice,ExtraTrees,416,68,321,0.78,0.553,0.672,0.788,3.125,none
+Average voltage,V,C-strict: post-DFT decision support,GradientBoosting,416,73,321,0.656,0.48,0.768,0.872,3.655,none
+Gravimetric capacity,mAh/g,A: composition,RandomForest,416,60,321,46.262,26.883,0.786,0.867,4.068,removed: comp__frac_Na
+Gravimetric capacity,mAh/g,B: composition + lattice,RandomForest,416,67,321,47.434,28.552,0.775,0.849,3.832,removed: comp__frac_Na
+Gravimetric capacity,mAh/g,C-strict: post-DFT decision support,GradientBoosting,416,70,321,39.463,25.82,0.844,0.885,3.832,removed: comp__frac_Na; fracA_charge; fracA_discharge
+Gravimetric energy,Wh/kg,A: composition,RandomForest,416,60,321,207.167,127.911,0.455,0.772,2.771,removed: comp__frac_Na
+Gravimetric energy,Wh/kg,B: composition + lattice,RandomForest,416,67,321,211.834,132.492,0.43,0.745,2.771,removed: comp__frac_Na
+Gravimetric energy,Wh/kg,C-strict: post-DFT decision support,ExtraTrees,416,70,321,183.836,108.446,0.571,0.837,3.42,removed: comp__frac_Na; fracA_charge; fracA_discharge
+Worst-case stability,eV/atom,A: composition,ExtraTrees,416,61,321,0.194,0.081,0.273,0.566,2.653,none
+Worst-case stability,eV/atom,B: composition + lattice,GradientBoosting,416,68,321,0.198,0.084,0.248,0.475,1.828,none
+Worst-case stability,eV/atom,C-strict: post-DFT decision support,ExtraTrees,416,71,321,0.206,0.082,0.18,0.563,2.594,removed: stability_charge; stability_discharge

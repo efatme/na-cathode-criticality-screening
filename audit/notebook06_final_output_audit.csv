@@ -1,0 +1,14 @@
+file,exists,size_kb
+tables\Supplementary_Table_S3_feature_leakage_audit.csv,True,14.11
+tables\Supplementary_Table_S4_leakage_corrected_ml_performance.csv,True,5.43
+tables\updated_table_2_before_after_leakage_correction.csv,True,1.78
+tables\notebook06_best_model_by_target_protocol_variant.csv,True,7.97
+tables\notebook06_grouped_cv_metrics_all_models_all_variants.csv,True,31.21
+tables\notebook06_feature_importance_with_leakage_flags.csv,True,279.66
+tables\notebook06_feature_importance_top20_by_target_protocol_variant.csv,True,87.47
+tables\Supplementary_Table_stability_permutation_test_summary.csv,True,0.29
+figure_data\notebook06_oof_predictions_all_models_all_variants.csv,True,10179.12
+figure_data\Supplementary_Figure_S1_stability_permutation_null_data.csv,True,45.15
+audit\notebook06_experiment_manifest.csv,True,3.21
+audit\notebook06_grouped_cv_fold_audit.csv,True,53.6
+manuscript_text\updated_manuscript_ml_interpretation.md,True,2.19

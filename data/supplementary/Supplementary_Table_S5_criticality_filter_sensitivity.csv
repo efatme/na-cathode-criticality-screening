@@ -1,0 +1,4 @@
+scenario,definition,candidate_count,note
+strict,Hard exclusions plus soft-flag elements removed,not computed in initial upload,Use if you can define strict soft-flag list.
+conservative_current,Current conservative earth-abundant workflow,56,Current reported number.
+permissive,Only hard exclusions applied,112,Current hard-exclusion-free number.

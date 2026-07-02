@@ -1,0 +1,74 @@
+feature,feature_family,protocols_containing_feature,risk_for_targets,decision,is_direct_na_target_feature,is_direct_stability_component,is_post_DFT_feature
+comp__X_max,composition_descriptor,A_composition_only; B_composition_lattice; C_strict_post_DFT,none_detected,KEEP; no direct target-definition leakage identified.,False,False,False
+comp__X_mean,composition_descriptor,A_composition_only; B_composition_lattice; C_strict_post_DFT,none_detected,KEEP; no direct target-definition leakage identified.,False,False,False
+comp__X_min,composition_descriptor,A_composition_only; B_composition_lattice; C_strict_post_DFT,none_detected,KEEP; no direct target-definition leakage identified.,False,False,False
+comp__X_range,composition_descriptor,A_composition_only; B_composition_lattice; C_strict_post_DFT,none_detected,KEEP; no direct target-definition leakage identified.,False,False,False
+comp__X_std,composition_descriptor,A_composition_only; B_composition_lattice; C_strict_post_DFT,none_detected,KEEP; no direct target-definition leakage identified.,False,False,False
+comp__Z_max,composition_descriptor,A_composition_only; B_composition_lattice; C_strict_post_DFT,none_detected,KEEP; no direct target-definition leakage identified.,False,False,False
+comp__Z_mean,composition_descriptor,A_composition_only; B_composition_lattice; C_strict_post_DFT,none_detected,KEEP; no direct target-definition leakage identified.,False,False,False
+comp__Z_min,composition_descriptor,A_composition_only; B_composition_lattice; C_strict_post_DFT,none_detected,KEEP; no direct target-definition leakage identified.,False,False,False
+comp__Z_range,composition_descriptor,A_composition_only; B_composition_lattice; C_strict_post_DFT,none_detected,KEEP; no direct target-definition leakage identified.,False,False,False
+comp__Z_std,composition_descriptor,A_composition_only; B_composition_lattice; C_strict_post_DFT,none_detected,KEEP; no direct target-definition leakage identified.,False,False,False
+comp__anion_frac,composition_descriptor,A_composition_only; B_composition_lattice; C_strict_post_DFT,none_detected,KEEP; no direct target-definition leakage identified.,False,False,False
+comp__atomic_mass_max,composition_descriptor,A_composition_only; B_composition_lattice; C_strict_post_DFT,none_detected,KEEP; no direct target-definition leakage identified.,False,False,False
+comp__atomic_mass_mean,composition_descriptor,A_composition_only; B_composition_lattice; C_strict_post_DFT,none_detected,KEEP; no direct target-definition leakage identified.,False,False,False
+comp__atomic_mass_min,composition_descriptor,A_composition_only; B_composition_lattice; C_strict_post_DFT,none_detected,KEEP; no direct target-definition leakage identified.,False,False,False
+comp__atomic_mass_range,composition_descriptor,A_composition_only; B_composition_lattice; C_strict_post_DFT,none_detected,KEEP; no direct target-definition leakage identified.,False,False,False
+comp__atomic_mass_std,composition_descriptor,A_composition_only; B_composition_lattice; C_strict_post_DFT,none_detected,KEEP; no direct target-definition leakage identified.,False,False,False
+comp__atomic_radius_max,composition_descriptor,A_composition_only; B_composition_lattice; C_strict_post_DFT,none_detected,KEEP; no direct target-definition leakage identified.,False,False,False
+comp__atomic_radius_mean,composition_descriptor,A_composition_only; B_composition_lattice; C_strict_post_DFT,none_detected,KEEP; no direct target-definition leakage identified.,False,False,False
+comp__atomic_radius_min,composition_descriptor,A_composition_only; B_composition_lattice; C_strict_post_DFT,none_detected,KEEP; no direct target-definition leakage identified.,False,False,False
+comp__atomic_radius_range,composition_descriptor,A_composition_only; B_composition_lattice; C_strict_post_DFT,none_detected,KEEP; no direct target-definition leakage identified.,False,False,False
+comp__atomic_radius_std,composition_descriptor,A_composition_only; B_composition_lattice; C_strict_post_DFT,none_detected,KEEP; no direct target-definition leakage identified.,False,False,False
+comp__carbon_indicator,composition_descriptor,A_composition_only; B_composition_lattice; C_strict_post_DFT,none_detected,KEEP; no direct target-definition leakage identified.,False,False,False
+comp__fluoride_indicator,composition_descriptor,A_composition_only; B_composition_lattice; C_strict_post_DFT,none_detected,KEEP; no direct target-definition leakage identified.,False,False,False
+comp__frac_Al,composition_descriptor,A_composition_only; B_composition_lattice; C_strict_post_DFT,none_detected,KEEP; no direct target-definition leakage identified.,False,False,False
+comp__frac_C,composition_descriptor,A_composition_only; B_composition_lattice; C_strict_post_DFT,none_detected,KEEP; no direct target-definition leakage identified.,False,False,False
+comp__frac_Ca,composition_descriptor,A_composition_only; B_composition_lattice; C_strict_post_DFT,none_detected,KEEP; no direct target-definition leakage identified.,False,False,False
+comp__frac_Co,composition_descriptor,A_composition_only; B_composition_lattice; C_strict_post_DFT,none_detected,KEEP; no direct target-definition leakage identified.,False,False,False
+comp__frac_Cr,composition_descriptor,A_composition_only; B_composition_lattice; C_strict_post_DFT,none_detected,KEEP; no direct target-definition leakage identified.,False,False,False
+comp__frac_Cu,composition_descriptor,A_composition_only; B_composition_lattice; C_strict_post_DFT,none_detected,KEEP; no direct target-definition leakage identified.,False,False,False
+comp__frac_F,composition_descriptor,A_composition_only; B_composition_lattice; C_strict_post_DFT,none_detected,KEEP; no direct target-definition leakage identified.,False,False,False
+comp__frac_Fe,composition_descriptor,A_composition_only; B_composition_lattice; C_strict_post_DFT,none_detected,KEEP; no direct target-definition leakage identified.,False,False,False
+comp__frac_K,composition_descriptor,A_composition_only; B_composition_lattice; C_strict_post_DFT,none_detected,KEEP; no direct target-definition leakage identified.,False,False,False
+comp__frac_Mg,composition_descriptor,A_composition_only; B_composition_lattice; C_strict_post_DFT,none_detected,KEEP; no direct target-definition leakage identified.,False,False,False
+comp__frac_Mn,composition_descriptor,A_composition_only; B_composition_lattice; C_strict_post_DFT,none_detected,KEEP; no direct target-definition leakage identified.,False,False,False
+comp__frac_Mo,composition_descriptor,A_composition_only; B_composition_lattice; C_strict_post_DFT,none_detected,KEEP; no direct target-definition leakage identified.,False,False,False
+comp__frac_N,composition_descriptor,A_composition_only; B_composition_lattice; C_strict_post_DFT,none_detected,KEEP; no direct target-definition leakage identified.,False,False,False
+comp__frac_Na,composition_descriptor,A_composition_only; B_composition_lattice; C_strict_post_DFT,capacity_grav; energy_grav,EXCLUDE for capacity_grav and energy_grav leakage-corrected analyses because gravimetric capacity is defined by Na stoichiometry; energy is capacity times voltage.,True,False,False
+comp__frac_Ni,composition_descriptor,A_composition_only; B_composition_lattice; C_strict_post_DFT,none_detected,KEEP; no direct target-definition leakage identified.,False,False,False
+comp__frac_O,composition_descriptor,A_composition_only; B_composition_lattice; C_strict_post_DFT,none_detected,KEEP; no direct target-definition leakage identified.,False,False,False
+comp__frac_P,composition_descriptor,A_composition_only; B_composition_lattice; C_strict_post_DFT,none_detected,KEEP; no direct target-definition leakage identified.,False,False,False
+comp__frac_S,composition_descriptor,A_composition_only; B_composition_lattice; C_strict_post_DFT,none_detected,KEEP; no direct target-definition leakage identified.,False,False,False
+comp__frac_Si,composition_descriptor,A_composition_only; B_composition_lattice; C_strict_post_DFT,none_detected,KEEP; no direct target-definition leakage identified.,False,False,False
+comp__frac_Ti,composition_descriptor,A_composition_only; B_composition_lattice; C_strict_post_DFT,none_detected,KEEP; no direct target-definition leakage identified.,False,False,False
+comp__frac_V,composition_descriptor,A_composition_only; B_composition_lattice; C_strict_post_DFT,none_detected,KEEP; no direct target-definition leakage identified.,False,False,False
+comp__frac_W,composition_descriptor,A_composition_only; B_composition_lattice; C_strict_post_DFT,none_detected,KEEP; no direct target-definition leakage identified.,False,False,False
+comp__group_max,composition_descriptor,A_composition_only; B_composition_lattice; C_strict_post_DFT,none_detected,KEEP; no direct target-definition leakage identified.,False,False,False
+comp__group_mean,composition_descriptor,A_composition_only; B_composition_lattice; C_strict_post_DFT,none_detected,KEEP; no direct target-definition leakage identified.,False,False,False
+comp__group_min,composition_descriptor,A_composition_only; B_composition_lattice; C_strict_post_DFT,none_detected,KEEP; no direct target-definition leakage identified.,False,False,False
+comp__group_range,composition_descriptor,A_composition_only; B_composition_lattice; C_strict_post_DFT,none_detected,KEEP; no direct target-definition leakage identified.,False,False,False
+comp__group_std,composition_descriptor,A_composition_only; B_composition_lattice; C_strict_post_DFT,none_detected,KEEP; no direct target-definition leakage identified.,False,False,False
+comp__n_elements,composition_descriptor,A_composition_only; B_composition_lattice; C_strict_post_DFT,none_detected,KEEP; no direct target-definition leakage identified.,False,False,False
+comp__oxide_indicator,composition_descriptor,A_composition_only; B_composition_lattice; C_strict_post_DFT,none_detected,KEEP; no direct target-definition leakage identified.,False,False,False
+comp__polyanion_indicator_PO,composition_descriptor,A_composition_only; B_composition_lattice; C_strict_post_DFT,none_detected,KEEP; no direct target-definition leakage identified.,False,False,False
+comp__row_max,composition_descriptor,A_composition_only; B_composition_lattice; C_strict_post_DFT,none_detected,KEEP; no direct target-definition leakage identified.,False,False,False
+comp__row_mean,composition_descriptor,A_composition_only; B_composition_lattice; C_strict_post_DFT,none_detected,KEEP; no direct target-definition leakage identified.,False,False,False
+comp__row_min,composition_descriptor,A_composition_only; B_composition_lattice; C_strict_post_DFT,none_detected,KEEP; no direct target-definition leakage identified.,False,False,False
+comp__row_range,composition_descriptor,A_composition_only; B_composition_lattice; C_strict_post_DFT,none_detected,KEEP; no direct target-definition leakage identified.,False,False,False
+comp__row_std,composition_descriptor,A_composition_only; B_composition_lattice; C_strict_post_DFT,none_detected,KEEP; no direct target-definition leakage identified.,False,False,False
+comp__sulfate_like_indicator,composition_descriptor,A_composition_only; B_composition_lattice; C_strict_post_DFT,none_detected,KEEP; no direct target-definition leakage identified.,False,False,False
+comp__total_atoms,composition_descriptor,A_composition_only; B_composition_lattice; C_strict_post_DFT,none_detected,KEEP; no direct target-definition leakage identified.,False,False,False
+comp__transition_metal_frac,composition_descriptor,A_composition_only; B_composition_lattice; C_strict_post_DFT,none_detected,KEEP; no direct target-definition leakage identified.,False,False,False
+fracA_charge,post_DFT_electrode_descriptor,C_strict_post_DFT,capacity_grav; energy_grav,EXCLUDE for capacity_grav and energy_grav leakage-corrected analyses because gravimetric capacity is defined by Na stoichiometry; energy is capacity times voltage.,True,False,True
+fracA_discharge,post_DFT_electrode_descriptor,C_strict_post_DFT,capacity_grav; energy_grav,EXCLUDE for capacity_grav and energy_grav leakage-corrected analyses because gravimetric capacity is defined by Na stoichiometry; energy is capacity times voltage.,True,False,True
+host_structure__lattice__a,lattice_descriptor,B_composition_lattice; C_strict_post_DFT,none_detected,KEEP; no direct target-definition leakage identified.,False,False,False
+host_structure__lattice__alpha,lattice_descriptor,B_composition_lattice; C_strict_post_DFT,none_detected,KEEP; no direct target-definition leakage identified.,False,False,False
+host_structure__lattice__b,lattice_descriptor,B_composition_lattice; C_strict_post_DFT,none_detected,KEEP; no direct target-definition leakage identified.,False,False,False
+host_structure__lattice__beta,lattice_descriptor,B_composition_lattice; C_strict_post_DFT,none_detected,KEEP; no direct target-definition leakage identified.,False,False,False
+host_structure__lattice__c,lattice_descriptor,B_composition_lattice; C_strict_post_DFT,none_detected,KEEP; no direct target-definition leakage identified.,False,False,False
+host_structure__lattice__gamma,lattice_descriptor,B_composition_lattice; C_strict_post_DFT,none_detected,KEEP; no direct target-definition leakage identified.,False,False,False
+host_structure__lattice__volume,lattice_descriptor,B_composition_lattice; C_strict_post_DFT,none_detected,KEEP; no direct target-definition leakage identified.,False,False,False
+max_delta_volume,post_DFT_electrode_descriptor,C_strict_post_DFT,none_detected,"KEEP but FLAG as post-DFT electrode descriptor; not a direct mathematical definition of voltage, capacity, energy, or stability_worst.",False,False,True
+stability_charge,post_DFT_electrode_descriptor,C_strict_post_DFT,stability_worst,EXCLUDE for stability_worst leakage-corrected analysis because stability_worst is derived from charged/discharged stability components. | FLAG for average_voltage as post-DFT cross-target adjacent descriptor; not direct mathematical leakage into voltage.,False,True,True
+stability_discharge,post_DFT_electrode_descriptor,C_strict_post_DFT,stability_worst,EXCLUDE for stability_worst leakage-corrected analysis because stability_worst is derived from charged/discharged stability components. | FLAG for average_voltage as post-DFT cross-target adjacent descriptor; not direct mathematical leakage into voltage.,False,True,True

@@ -1,0 +1,7 @@
+preliminary_family,n_records,n_basic_screening,n_hard_exclusion_free,n_conservative,n_exact_cde,median_voltage,median_capacity,median_energy,median_mp_score,basic_screening_rate_percent,hard_exclusion_free_rate_percent,conservative_rate_percent,exact_cde_rate_percent
+phosphate_or_NASICON_like,141,84,63,34,45,3.747,97.926,383.275,0.695,59.57,44.68,24.11,31.91
+transition_metal_oxide_like,122,46,23,10,68,3.023,113.687,312.681,0.583,37.7,18.85,8.2,55.74
+sulfate_like,23,21,17,9,0,3.738,102.694,343.119,0.681,91.3,73.91,39.13,0.0
+silicate_like,18,10,9,3,0,3.34,97.63,323.959,0.608,55.56,50.0,16.67,0.0
+other_or_unclear,107,0,0,0,38,1.904,107.912,170.195,0.473,0.0,0.0,0.0,35.51
+carbon_or_organic_like,5,3,0,0,2,2.61,138.65,293.363,0.494,60.0,0.0,0.0,40.0

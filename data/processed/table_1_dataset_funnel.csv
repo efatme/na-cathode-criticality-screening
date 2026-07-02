@@ -1,0 +1,8 @@
+stage_order,stage,count,interpretation,percentage_of_total
+1,Materials Project Na-ion electrode records,416,Full computational Na-electrode dataset used for screening and ML.,100.0
+2,Basic electrochemical screening pass,164,Records satisfying basic electrochemical criteria.,39.42
+3,Hard-exclusion-free candidates,112,Candidates avoiding hard-excluded elements.,26.92
+4,Conservative earth-abundant candidates,56,Most conservative candidate subset after excluding hard and soft penalty elements.,13.46
+5,Conservative candidates with exact CDE evidence,18,Conservative candidates with exact formula-level text-mined literature evidence.,4.33
+6,All final candidate shortlist records,112,Basic screening pass and hard-exclusion-free candidate table.,26.92
+7,Unique manuscript shortlist,95,Deduplicated candidate list for manuscript tables.,22.84

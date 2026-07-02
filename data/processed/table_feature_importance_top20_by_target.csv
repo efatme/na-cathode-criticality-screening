@@ -1,0 +1,81 @@
+target,protocol,model,feature,importance,feature_clean
+average_voltage,C_strict_post_DFT,ExtraTrees,comp__X_mean,0.07494,X mean
+average_voltage,C_strict_post_DFT,ExtraTrees,comp__row_min,0.07406,row min
+average_voltage,C_strict_post_DFT,ExtraTrees,comp__atomic_radius_mean,0.06547,atomic radius mean
+average_voltage,C_strict_post_DFT,ExtraTrees,comp__frac_Ti,0.06412,frac Ti
+average_voltage,C_strict_post_DFT,ExtraTrees,comp__atomic_radius_min,0.05971,atomic radius min
+average_voltage,C_strict_post_DFT,ExtraTrees,stability_charge,0.04324,stability charge
+average_voltage,C_strict_post_DFT,ExtraTrees,comp__atomic_radius_range,0.04221,atomic radius range
+average_voltage,C_strict_post_DFT,ExtraTrees,comp__X_range,0.04203,X range
+average_voltage,C_strict_post_DFT,ExtraTrees,comp__group_mean,0.0418,group mean
+average_voltage,C_strict_post_DFT,ExtraTrees,comp__X_max,0.04038,X max
+average_voltage,C_strict_post_DFT,ExtraTrees,comp__row_mean,0.032,row mean
+average_voltage,C_strict_post_DFT,ExtraTrees,comp__Z_min,0.03021,Z min
+average_voltage,C_strict_post_DFT,ExtraTrees,stability_discharge,0.02344,stability discharge
+average_voltage,C_strict_post_DFT,ExtraTrees,comp__anion_frac,0.02099,anion frac
+average_voltage,C_strict_post_DFT,ExtraTrees,comp__group_std,0.02087,group std
+average_voltage,C_strict_post_DFT,ExtraTrees,comp__atomic_mass_min,0.01804,atomic mass min
+average_voltage,C_strict_post_DFT,ExtraTrees,comp__Z_max,0.01519,Z max
+average_voltage,C_strict_post_DFT,ExtraTrees,comp__atomic_mass_max,0.01442,atomic mass max
+average_voltage,C_strict_post_DFT,ExtraTrees,fracA_discharge,0.0144,fracA discharge
+average_voltage,C_strict_post_DFT,ExtraTrees,comp__frac_Na,0.01366,frac Na
+capacity_grav,C_strict_post_DFT,ExtraTrees,comp__frac_Na,0.21531,frac Na
+capacity_grav,C_strict_post_DFT,ExtraTrees,fracA_discharge,0.19996,fracA discharge
+capacity_grav,C_strict_post_DFT,ExtraTrees,max_delta_volume,0.09042,max delta volume
+capacity_grav,C_strict_post_DFT,ExtraTrees,comp__n_elements,0.06938,n elements
+capacity_grav,C_strict_post_DFT,ExtraTrees,fracA_charge,0.05619,fracA charge
+capacity_grav,C_strict_post_DFT,ExtraTrees,comp__group_mean,0.03537,group mean
+capacity_grav,C_strict_post_DFT,ExtraTrees,comp__row_max,0.02438,row max
+capacity_grav,C_strict_post_DFT,ExtraTrees,comp__group_max,0.02089,group max
+capacity_grav,C_strict_post_DFT,ExtraTrees,comp__group_range,0.02008,group range
+capacity_grav,C_strict_post_DFT,ExtraTrees,host_structure__lattice__volume,0.01745,lattice volume
+capacity_grav,C_strict_post_DFT,ExtraTrees,comp__total_atoms,0.01563,total atoms
+capacity_grav,C_strict_post_DFT,ExtraTrees,comp__row_range,0.01548,row range
+capacity_grav,C_strict_post_DFT,ExtraTrees,comp__atomic_mass_mean,0.01502,atomic mass mean
+capacity_grav,C_strict_post_DFT,ExtraTrees,comp__Z_mean,0.01465,Z mean
+capacity_grav,C_strict_post_DFT,ExtraTrees,comp__row_std,0.01399,row std
+capacity_grav,C_strict_post_DFT,ExtraTrees,comp__Z_max,0.01279,Z max
+capacity_grav,C_strict_post_DFT,ExtraTrees,comp__atomic_mass_max,0.01269,atomic mass max
+capacity_grav,C_strict_post_DFT,ExtraTrees,stability_charge,0.0111,stability charge
+capacity_grav,C_strict_post_DFT,ExtraTrees,comp__atomic_mass_range,0.0108,atomic mass range
+capacity_grav,C_strict_post_DFT,ExtraTrees,comp__row_mean,0.01034,row mean
+energy_grav,C_strict_post_DFT,ExtraTrees,max_delta_volume,0.07779,max delta volume
+energy_grav,C_strict_post_DFT,ExtraTrees,stability_charge,0.05728,stability charge
+energy_grav,C_strict_post_DFT,ExtraTrees,fracA_charge,0.05703,fracA charge
+energy_grav,C_strict_post_DFT,ExtraTrees,fracA_discharge,0.05437,fracA discharge
+energy_grav,C_strict_post_DFT,ExtraTrees,comp__frac_Na,0.05384,frac Na
+energy_grav,C_strict_post_DFT,ExtraTrees,comp__anion_frac,0.05155,anion frac
+energy_grav,C_strict_post_DFT,ExtraTrees,comp__row_min,0.04765,row min
+energy_grav,C_strict_post_DFT,ExtraTrees,comp__row_mean,0.04589,row mean
+energy_grav,C_strict_post_DFT,ExtraTrees,comp__row_std,0.03239,row std
+energy_grav,C_strict_post_DFT,ExtraTrees,comp__atomic_radius_min,0.03106,atomic radius min
+energy_grav,C_strict_post_DFT,ExtraTrees,stability_discharge,0.02785,stability discharge
+energy_grav,C_strict_post_DFT,ExtraTrees,comp__frac_Ti,0.02768,frac Ti
+energy_grav,C_strict_post_DFT,ExtraTrees,comp__row_max,0.02211,row max
+energy_grav,C_strict_post_DFT,ExtraTrees,comp__total_atoms,0.02083,total atoms
+energy_grav,C_strict_post_DFT,ExtraTrees,comp__atomic_radius_std,0.01997,atomic radius std
+energy_grav,C_strict_post_DFT,ExtraTrees,comp__group_std,0.01953,group std
+energy_grav,C_strict_post_DFT,ExtraTrees,comp__atomic_mass_mean,0.01781,atomic mass mean
+energy_grav,C_strict_post_DFT,ExtraTrees,comp__Z_min,0.01751,Z min
+energy_grav,C_strict_post_DFT,ExtraTrees,comp__group_max,0.01665,group max
+energy_grav,C_strict_post_DFT,ExtraTrees,comp__atomic_mass_max,0.01661,atomic mass max
+stability_worst,C_strict_post_DFT,ExtraTrees,comp__row_max,0.11112,row max
+stability_worst,C_strict_post_DFT,ExtraTrees,comp__frac_Co,0.05435,frac Co
+stability_worst,C_strict_post_DFT,ExtraTrees,fracA_discharge,0.05407,fracA discharge
+stability_worst,C_strict_post_DFT,ExtraTrees,comp__frac_Na,0.05173,frac Na
+stability_worst,C_strict_post_DFT,ExtraTrees,comp__frac_N,0.04808,frac N
+stability_worst,C_strict_post_DFT,ExtraTrees,host_structure__lattice__alpha,0.04604,lattice alpha
+stability_worst,C_strict_post_DFT,ExtraTrees,max_delta_volume,0.03772,max delta volume
+stability_worst,C_strict_post_DFT,ExtraTrees,comp__group_mean,0.03248,group mean
+stability_worst,C_strict_post_DFT,ExtraTrees,comp__X_mean,0.03036,X mean
+stability_worst,C_strict_post_DFT,ExtraTrees,comp__Z_max,0.02816,Z max
+stability_worst,C_strict_post_DFT,ExtraTrees,comp__Z_std,0.02406,Z std
+stability_worst,C_strict_post_DFT,ExtraTrees,comp__atomic_mass_max,0.02405,atomic mass max
+stability_worst,C_strict_post_DFT,ExtraTrees,comp__Z_range,0.02398,Z range
+stability_worst,C_strict_post_DFT,ExtraTrees,comp__group_max,0.02226,group max
+stability_worst,C_strict_post_DFT,ExtraTrees,comp__group_range,0.0222,group range
+stability_worst,C_strict_post_DFT,ExtraTrees,comp__atomic_mass_std,0.02077,atomic mass std
+stability_worst,C_strict_post_DFT,ExtraTrees,comp__atomic_mass_range,0.01803,atomic mass range
+stability_worst,C_strict_post_DFT,ExtraTrees,host_structure__lattice__gamma,0.01663,lattice gamma
+stability_worst,C_strict_post_DFT,ExtraTrees,comp__transition_metal_frac,0.01497,transition metal frac
+stability_worst,C_strict_post_DFT,ExtraTrees,host_structure__lattice__b,0.01493,lattice b

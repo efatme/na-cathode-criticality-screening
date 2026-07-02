@@ -1,0 +1,32 @@
+target,unit,protocol,variant,model,n_samples,n_features,n_groups,removed_features,rmse,mae,r2,spearman,top20_hit_rate,top20_enrichment,baseline_rmse,baseline_mae
+average_voltage,V,A_composition_only,original_full_features,ExtraTrees,416,61,321,none,0.7715,0.55258,0.67905,0.79495,0.63095,3.12472,1.37084,1.05855
+average_voltage,V,A_composition_only,stress_no_stability_features,ExtraTrees,416,61,321,none,0.7715,0.55258,0.67905,0.79495,0.63095,3.12472,1.37084,1.05855
+average_voltage,V,A_composition_only,target_specific_clean,ExtraTrees,416,61,321,none,0.7715,0.55258,0.67905,0.79495,0.63095,3.12472,1.37084,1.05855
+average_voltage,V,B_composition_lattice,original_full_features,ExtraTrees,416,68,321,none,0.78024,0.55345,0.67174,0.78847,0.63095,3.12472,1.37084,1.05855
+average_voltage,V,B_composition_lattice,stress_no_stability_features,ExtraTrees,416,68,321,none,0.78024,0.55345,0.67174,0.78847,0.63095,3.12472,1.37084,1.05855
+average_voltage,V,B_composition_lattice,target_specific_clean,ExtraTrees,416,68,321,none,0.78024,0.55345,0.67174,0.78847,0.63095,3.12472,1.37084,1.05855
+average_voltage,V,C_strict_post_DFT,original_full_features,GradientBoosting,416,73,321,none,0.65601,0.47952,0.76795,0.87227,0.7381,3.65533,1.37084,1.05855
+average_voltage,V,C_strict_post_DFT,stress_no_stability_features,ExtraTrees,416,71,321,stability_charge; stability_discharge,0.77351,0.54844,0.67738,0.78842,0.63095,3.12472,1.37084,1.05855
+average_voltage,V,C_strict_post_DFT,target_specific_clean,GradientBoosting,416,73,321,none,0.65601,0.47952,0.76795,0.87227,0.7381,3.65533,1.37084,1.05855
+capacity_grav,mAh/g,A_composition_only,original_full_features,GradientBoosting,416,61,321,none,45.66444,24.69919,0.79102,0.86067,0.80952,4.00907,103.34959,63.45274
+capacity_grav,mAh/g,A_composition_only,strict_no_na_and_stability_features,RandomForest,416,60,321,comp__frac_Na,46.26179,26.88275,0.78551,0.86729,0.82143,4.06803,103.34959,63.45274
+capacity_grav,mAh/g,A_composition_only,target_specific_clean,RandomForest,416,60,321,comp__frac_Na,46.26179,26.88275,0.78551,0.86729,0.82143,4.06803,103.34959,63.45274
+capacity_grav,mAh/g,B_composition_lattice,original_full_features,GradientBoosting,416,68,321,none,45.25908,26.84887,0.79471,0.84847,0.75,3.71429,103.34959,63.45274
+capacity_grav,mAh/g,B_composition_lattice,strict_no_na_and_stability_features,RandomForest,416,67,321,comp__frac_Na,47.43363,28.55227,0.77451,0.84904,0.77381,3.8322,103.34959,63.45274
+capacity_grav,mAh/g,B_composition_lattice,target_specific_clean,RandomForest,416,67,321,comp__frac_Na,47.43363,28.55227,0.77451,0.84904,0.77381,3.8322,103.34959,63.45274
+capacity_grav,mAh/g,C_strict_post_DFT,original_full_features,GradientBoosting,416,73,321,none,34.01361,17.28777,0.88405,0.95398,0.85714,4.2449,103.34959,63.45274
+capacity_grav,mAh/g,C_strict_post_DFT,strict_no_na_and_stability_features,GradientBoosting,416,68,321,comp__frac_Na; fracA_charge; fracA_discharge; stability_charge; stability_discharge,39.92217,25.74263,0.84027,0.87386,0.7619,3.77324,103.34959,63.45274
+capacity_grav,mAh/g,C_strict_post_DFT,target_specific_clean,GradientBoosting,416,70,321,comp__frac_Na; fracA_charge; fracA_discharge,39.46349,25.81953,0.84392,0.88505,0.77381,3.8322,103.34959,63.45274
+energy_grav,Wh/kg,A_composition_only,original_full_features,RandomForest,416,61,321,none,204.23496,123.23258,0.47042,0.79655,0.58333,2.88889,284.26632,199.68864
+energy_grav,Wh/kg,A_composition_only,strict_no_na_and_stability_features,RandomForest,416,60,321,comp__frac_Na,207.16657,127.91065,0.4551,0.77232,0.55952,2.77098,284.26632,199.68864
+energy_grav,Wh/kg,A_composition_only,target_specific_clean,RandomForest,416,60,321,comp__frac_Na,207.16657,127.91065,0.4551,0.77232,0.55952,2.77098,284.26632,199.68864
+energy_grav,Wh/kg,B_composition_lattice,original_full_features,RandomForest,416,68,321,none,210.09456,129.04833,0.43959,0.76781,0.55952,2.77098,284.26632,199.68864
+energy_grav,Wh/kg,B_composition_lattice,strict_no_na_and_stability_features,RandomForest,416,67,321,comp__frac_Na,211.83376,132.49188,0.43027,0.74483,0.55952,2.77098,284.26632,199.68864
+energy_grav,Wh/kg,B_composition_lattice,target_specific_clean,RandomForest,416,67,321,comp__frac_Na,211.83376,132.49188,0.43027,0.74483,0.55952,2.77098,284.26632,199.68864
+energy_grav,Wh/kg,C_strict_post_DFT,original_full_features,GradientBoosting,416,73,321,none,175.34024,99.08572,0.60966,0.86491,0.67857,3.36054,284.26632,199.68864
+energy_grav,Wh/kg,C_strict_post_DFT,strict_no_na_and_stability_features,ExtraTrees,416,68,321,comp__frac_Na; fracA_charge; fracA_discharge; stability_charge; stability_discharge,192.95422,118.68986,0.5273,0.79441,0.64286,3.18367,284.26632,199.68864
+energy_grav,Wh/kg,C_strict_post_DFT,target_specific_clean,ExtraTrees,416,70,321,comp__frac_Na; fracA_charge; fracA_discharge,183.83602,108.44642,0.57092,0.83668,0.69048,3.4195,284.26632,199.68864
+stability_worst,eV/atom,A_composition_only,original_full_features,ExtraTrees,416,61,321,none,0.19415,0.08054,0.27326,0.56628,0.53571,2.65306,0.23466,0.08915
+stability_worst,eV/atom,B_composition_lattice,original_full_features,GradientBoosting,416,68,321,none,0.19751,0.08376,0.24786,0.47533,0.36905,1.82766,0.23466,0.08915
+stability_worst,eV/atom,C_strict_post_DFT,original_full_features,Ridge,416,73,321,none,0.06486,0.0299,0.9189,0.88598,0.64286,3.18367,0.23466,0.08915
+stability_worst,eV/atom,C_strict_post_DFT,target_specific_clean,ExtraTrees,416,71,321,stability_charge; stability_discharge,0.20619,0.08182,0.18031,0.56282,0.52381,2.5941,0.23466,0.08915

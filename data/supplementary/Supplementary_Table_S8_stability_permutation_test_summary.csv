@@ -1,0 +1,2 @@
+target,protocol,variant,model,observed_r2,n_permutations,null_r2_mean,null_r2_std,null_r2_95th_percentile,empirical_p_value_r2
+stability_worst,C_strict_post_DFT,target_specific_clean,ExtraTrees,0.1803086873233678,1000,-0.3415065195995814,0.1424032554212546,-0.1430215389696688,0.0009990009990009

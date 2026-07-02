@@ -1,0 +1,13 @@
+Target property,Protocol,Best model,Samples,Features,CV groups,RMSE,MAE,R2,Spearman,Top-20% enrichment,Baseline RMSE,Baseline MAE
+average_voltage,A_composition_only,GradientBoosting,416,61,321,0.772,0.567,0.6786,0.8053,3.3016,1.3704,1.0583
+average_voltage,B_composition_lattice,ExtraTrees,416,68,321,0.7827,0.5605,0.6697,0.7801,3.0068,1.3704,1.0583
+average_voltage,C_strict_post_DFT,GradientBoosting,416,73,321,0.656,0.4795,0.7679,0.8723,3.6553,1.3704,1.0583
+capacity_grav,A_composition_only,ExtraTrees,416,61,321,44.9653,22.393,0.7974,0.8849,3.8322,102.8535,63.0418
+capacity_grav,B_composition_lattice,ExtraTrees,416,68,321,44.9141,23.3608,0.7978,0.8802,3.9501,102.8535,63.0418
+capacity_grav,C_strict_post_DFT,ExtraTrees,416,73,321,32.9793,14.0728,0.891,0.9674,4.4807,102.8535,63.0418
+energy_grav,A_composition_only,ExtraTrees,416,61,321,191.131,113.6838,0.5362,0.8286,3.3016,283.6178,198.0244
+energy_grav,B_composition_lattice,ExtraTrees,416,68,321,188.8038,116.0958,0.5474,0.8158,3.1837,283.6178,198.0244
+energy_grav,C_strict_post_DFT,ExtraTrees,416,73,321,159.1457,90.1558,0.6784,0.8876,4.0091,283.6178,198.0244
+stability_worst,A_composition_only,ExtraTrees,416,61,321,0.201,0.0846,0.221,0.5488,2.5941,0.2346,0.0887
+stability_worst,B_composition_lattice,ExtraTrees,416,68,321,0.195,0.0805,0.2667,0.5351,2.6531,0.2346,0.0887
+stability_worst,C_strict_post_DFT,ExtraTrees,416,71,321,0.196,0.0796,0.2597,0.5357,2.6531,0.2346,0.0887

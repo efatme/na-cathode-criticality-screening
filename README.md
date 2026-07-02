@@ -1,10 +1,10 @@
-# Criticality-aware materials informatics for sustainable sodium-ion cathode prioritization: An integrated screening of computed electrode descriptors and text-mined literature evidence
+# Criticality-aware materials informatics of sodium-ion cathode candidate prioritization using computed electrode descriptors and text-mined literature evidence
 
-This repository contains a reproducible, criticality-aware materials-informatics workflow for sodium-ion cathode prioritization.
+This repository supports the submitted manuscript **NXSUST-D-26-01414** in *Next Sustainability*.
 
 ## Scope
 
-The workflow combines Materials Project sodium-ion electrode records, conservative criticality-aware filtering, ChemDataExtractor text-mined battery evidence, grouped cross-validation machine learning, feature-leakage auditing, and manuscript-ready figures/tables.
+This repository contains a reproducible, criticality-aware materials-informatics workflow for sodium-ion cathode candidate prioritization. The workflow combines Materials Project sodium-ion electrode records, conservative criticality-aware filtering, ChemDataExtractor-derived text-mined battery evidence, grouped cross-validation machine learning, feature-leakage auditing, and manuscript-ready figures/tables.
 
 The study is a decision-support workflow. It does **not** experimentally validate cathodes and does **not** claim discovery of new cathode materials.
 
@@ -19,60 +19,54 @@ The study is a decision-support workflow. It does **not** experimentally validat
 
 ## Leakage-audited ML interpretation
 
-Notebook 06 performs target-specific leakage auditing. Na-stoichiometry near-target features are removed for capacity and energy, and stability components are removed for the derived stability_worst target. The C-strict protocol is interpreted as a post-DFT decision-support protocol, not a pre-DFT discovery model.
+Notebook 06 performs target-specific leakage auditing. Na-stoichiometry near-target features are removed for capacity and energy, and stability components are removed for the derived `stability_worst` target. The C-strict protocol is interpreted as a post-DFT decision-support protocol, not a pre-DFT discovery model.
 
 ## Repository structure
 
 ```text
-notebooks/                 Reproducible notebooks 01–07
-data/processed/            Main manuscript tables
-data/figure_data/          CSV files used to create figures
-data/supplementary/        Supplementary Tables S1–S8 and leakage audit files
-figures/main_figures/      Main figures as PNG and PDF
-figures/supplementary_figures/ Supplementary figures
-manuscript_assets/         Captions, abstract draft, claim-control text
+01–06 `.ipynb` files at repository root   Reproducible analysis notebooks
+data/processed/                  Main manuscript tables
+data/figure_data/                CSV files used to create figures
+data/supplementary/              Supporting leakage-audit, screening, shortlist, and provenance files
+figures/main_figures/            Main figures as PNG and PDF
+figures/supplementary_figures/   Supplementary figures as PNG and PDF
+manuscript_assets/               Captions and claim-control text blocks
 ```
 
 ## Run order
 
-See `RUN_ORDER.md`.
+See [`RUN_ORDER.md`](RUN_ORDER.md).
 
 ## Data availability
 
-Processed datasets and figure-data files will be archived at:
+Processed datasets, figure-data files, and repository supporting files are available in this repository:
 
 ```text
-TO_BE_ADDED_AFTER_DATA_DEPOSIT
+https://github.com/efatme/na-cathode-criticality-screening
 ```
 
-Materials Project source data must be accessed through the Materials Project API subject to Materials Project terms of use. ChemDataExtractor source data should be obtained from the original public database/source.
+Materials Project source sodium-ion electrode records must be accessed through the Materials Project API subject to the Materials Project terms of use. ChemDataExtractor-derived source records should be obtained from the original cited battery text-mining resources.
 
 ## Code availability
 
-The code will be archived at:
+Analysis notebooks and environment files are available in this public GitHub repository:
 
 ```text
-TO_BE_ADDED_AFTER_ZENODO_CODE_RELEASE
+https://github.com/efatme/na-cathode-criticality-screening
 ```
 
-GitHub repository:
-
-```text
-TO_BE_ADDED_AFTER_GITHUB_UPLOAD
-```
+A DOI has not yet been minted for this initial public upload. If requested during review or revision, an archived release DOI can be added through Zenodo or an equivalent repository archive.
 
 ## License
 
-- Code: MIT License, see `LICENSE`.
-- Processed data, figure data, and manuscript-derived tables: CC BY 4.0, see `LICENSE_DATA.md`.
+- Code: MIT License, see [`LICENSE`](LICENSE).
+- Processed data, figure data, and manuscript-derived tables: CC BY 4.0, see [`LICENSE_DATA.md`](LICENSE_DATA.md).
 
-## How to cite
+## Citation
 
-A citation DOI will be added after Zenodo release.
+Please cite the submitted manuscript and this repository. Citation metadata are provided in [`CITATION.cff`](CITATION.cff).
 
-## Manual checks before submission
+## Contact
 
-- Replace all author, affiliation, DOI, URL, and funding placeholders.
-- Verify Supplementary Table S1 criticality statuses against official USGS/EU/BGS sources.
-- Fill Supplementary Tables S2 and S7 manual literature-check columns.
-- Confirm no API keys or private credentials are committed.
+Corresponding author: Md. Efatuzzaman Efat  
+Email: efatuzzaman@gmail.com

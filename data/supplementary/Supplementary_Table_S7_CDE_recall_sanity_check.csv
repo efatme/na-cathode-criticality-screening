@@ -1,0 +1,11 @@
+rank,mp_index,battery_formula,formula_discharge,framework_formula,preliminary_family,cde_exact_formula_match,cde_total_doi_count,recall_check_status
+1,11,Na0-1MnO2,NaMnO2,MnO2,transition_metal_oxide_like,True,2166.0,Manual recall audit not claimed in submitted manuscript; file retained as automated exact-match evidence summary for transparency.
+2,0,Na0-2MnPO4F,Na2MnPO4F,MnPO4F,phosphate_or_NASICON_like,True,38.0,Manual recall audit not claimed in submitted manuscript; file retained as automated exact-match evidence summary for transparency.
+3,1,Na0-2MnP2O7,Na2MnP2O7,MnP2O7,phosphate_or_NASICON_like,True,28.0,Manual recall audit not claimed in submitted manuscript; file retained as automated exact-match evidence summary for transparency.
+4,3,Na1-3MnPCO7,Na3MnPCO7,MnPCO7,phosphate_or_NASICON_like,True,28.0,Manual recall audit not claimed in submitted manuscript; file retained as automated exact-match evidence summary for transparency.
+5,27,Na0-0.5MnO2,NaMn2O4,MnO2,transition_metal_oxide_like,True,2092.0,Manual recall audit not claimed in submitted manuscript; file retained as automated exact-match evidence summary for transparency.
+6,22,Na0-1FePO4,NaFePO4,FePO4,phosphate_or_NASICON_like,True,616.0,Manual recall audit not claimed in submitted manuscript; file retained as automated exact-match evidence summary for transparency.
+7,13,Na0-1MnPO4,NaMnPO4,MnPO4,phosphate_or_NASICON_like,True,28.0,Manual recall audit not claimed in submitted manuscript; file retained as automated exact-match evidence summary for transparency.
+8,7,Na1-3FePCO7,Na3FePCO7,FePCO7,phosphate_or_NASICON_like,True,6.0,Manual recall audit not claimed in submitted manuscript; file retained as automated exact-match evidence summary for transparency.
+9,26,Na0-0.67MnPO4,Na2Mn3(PO4)3,MnPO4,phosphate_or_NASICON_like,True,24.0,Manual recall audit not claimed in submitted manuscript; file retained as automated exact-match evidence summary for transparency.
+10,8,Na0-1CuPO4,NaCuPO4,CuPO4,phosphate_or_NASICON_like,True,2.0,Manual recall audit not claimed in submitted manuscript; file retained as automated exact-match evidence summary for transparency.
